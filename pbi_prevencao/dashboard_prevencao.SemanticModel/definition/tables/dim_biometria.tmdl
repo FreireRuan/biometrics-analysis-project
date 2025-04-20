@@ -1,0 +1,87 @@
+table dim_biometria
+	lineageTag: f2c577a7-0abc-4078-8daa-bb98eebbb59f
+
+	column id_sessao
+		dataType: int64
+		formatString: 0
+		lineageTag: 430e5867-fc75-460e-9ae2-fdd21598bde0
+		summarizeBy: none
+		sourceColumn: id_sessao
+
+		annotation SummarizationSetBy = Automatic
+
+	column dt_evento
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: ccbf2d58-46e5-46ca-b613-51f520888789
+		summarizeBy: none
+		sourceColumn: dt_evento
+
+		variation Variation
+			isDefault
+			relationship: afa54a1a-bd5d-47c7-a4e6-b6b238955a5e
+			defaultHierarchy: LocalDateTable_38a7a38f-3c8f-4529-a256-0deaf69a9663.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column status
+		dataType: string
+		lineageTag: a23656d2-af9d-49ad-ac30-bb9183e198c1
+		summarizeBy: none
+		sourceColumn: status
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_motorista
+		dataType: int64
+		formatString: 0
+		lineageTag: c12fd4d8-ea83-41de-af06-2bf54d41a89d
+		summarizeBy: none
+		sourceColumn: id_motorista
+
+		annotation SummarizationSetBy = Automatic
+
+	column acao
+		dataType: string
+		lineageTag: 32d2e96c-2621-4d31-bd88-c3ebd830fec4
+		summarizeBy: none
+		sourceColumn: acao
+
+		annotation SummarizationSetBy = Automatic
+
+	column flg_necessario_acao
+		dataType: int64
+		formatString: 0
+		lineageTag: 222621e5-ff34-45a9-bbff-9153b6aaa5ce
+		summarizeBy: sum
+		sourceColumn: flg_necessario_acao
+
+		annotation SummarizationSetBy = Automatic
+
+	column qtd_cancelado = ```
+			
+			    lookupvalue(
+			        fato_motorista_cancelado[qtd_cancelado],
+			        fato_motorista_cancelado[id_motorista],
+			        dim_biometria[id_motorista]
+			    )
+			```
+		formatString: 0
+		lineageTag: e367b17a-49eb-43aa-bacf-b6f7e1f7e4e2
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_biometria = m
+		mode: import
+		source =
+				let
+				    Fonte = DatabricksMultiCloud.Catalogs("dbc-2e283651-5789.cloud.databricks.com", "sql/protocolv1/o/1354962499045176/0419-050741-l5d9yxq8", [Catalog=null, Database=null, EnableAutomaticProxyDiscovery=null]),
+				    hive_metastore_Database = Fonte{[Name="hive_metastore",Kind="Database"]}[Data],
+				    gold_Schema = hive_metastore_Database{[Name="gold",Kind="Schema"]}[Data],
+				    dim_biometria_Table = gold_Schema{[Name="dim_biometria",Kind="Table"]}[Data]
+				in
+				    dim_biometria_Table
+

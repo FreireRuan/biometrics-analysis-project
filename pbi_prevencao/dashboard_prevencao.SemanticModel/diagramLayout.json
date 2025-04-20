@@ -1,0 +1,101 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 811.18475118062986,
+            "y": 418.5
+          },
+          "nodeIndex": "dim_biometria",
+          "nodeLineageTag": "f2c577a7-0abc-4078-8daa-bb98eebbb59f",
+          "size": {
+            "height": 244.11233188939912,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 62.361639415359832,
+            "y": 428.5
+          },
+          "nodeIndex": "dim_motoristas",
+          "nodeLineageTag": "90944ace-a762-40c6-a6dd-512ecfed0102",
+          "size": {
+            "height": 266.62209938363446,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 818.65345614344926,
+            "y": 66.560439936639057
+          },
+          "nodeIndex": "fato_biometria_tentativas",
+          "nodeLineageTag": "7c3c36e2-df7c-4d48-947a-8aef8e9db811",
+          "size": {
+            "height": 264.10805789745956,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 90.989012995408245,
+            "y": 67.074481422813932
+          },
+          "nodeIndex": "fato_ordens_servico",
+          "nodeLineageTag": "6e9439b2-7d03-4c5f-b30a-0d400a0dff96",
+          "size": {
+            "height": 207.54212445852465,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 1269.6288123962865,
+            "y": 0
+          },
+          "nodeIndex": "#medidas",
+          "nodeLineageTag": "8bbc815e-7d4d-4b16-a8b7-54dc3c8fa51f",
+          "size": {
+            "height": 72,
+            "width": 234
+          },
+          "zIndex": 2,
+          "expandedHeight": 200
+        },
+        {
+          "location": {
+            "x": 445.42591473217442,
+            "y": 108.03174720911113
+          },
+          "nodeIndex": "fato_motorista_cancelado",
+          "nodeLineageTag": "6459881f-1a2d-44e6-87a6-3cc5673b94af",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 79.553182037699813,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}

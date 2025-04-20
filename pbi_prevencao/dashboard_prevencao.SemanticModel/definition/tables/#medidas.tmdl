@@ -1,0 +1,266 @@
+table #medidas
+	lineageTag: 8bbc815e-7d4d-4b16-a8b7-54dc3c8fa51f
+
+	measure qtd_distinta_motoristas = ```
+			
+			    distinctcount(dim_motoristas[id_motorista])
+			```
+		formatString: 0
+		displayFolder: qtd
+		lineageTag: f4ccc235-11b2-473d-a2b0-e71d01d2b2d0
+
+	measure media_similaridade = ```
+			
+			    average(fato_biometria_tentativas[percent_similaridade])
+			```
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: estatisticas
+		lineageTag: d5bcc7fd-792b-4cf9-b370-3f5cb67a1a0c
+
+	measure qtd_biometria_tentativas = ```
+			
+			    count(fato_biometria_tentativas[id_sessao])
+			```
+		formatString: 0
+		displayFolder: qtd
+		lineageTag: 521690ac-ab2e-4931-adf6-03acbea072f3
+
+	measure qtd_execucoes = ```
+			
+			    count(fato_biometria_tentativas[id_sessao])
+			```
+		formatString: 0
+		displayFolder: qtd
+		lineageTag: 7c0b7788-5799-4100-b926-bc1ce9da96cd
+
+	measure qtd_execucoes_falhadas = ```
+			
+			    calculate(
+			        [qtd_execucoes],
+			        filter(
+			            fato_biometria_tentativas,
+			            fato_biometria_tentativas[status] = "falha no provedor"
+			        )
+			    )
+			```
+		formatString: 0
+		displayFolder: qtd
+		lineageTag: ff358bc8-1896-41c2-9520-181a7e817e69
+
+	measure tx_execucoes_falhadas = ```
+			
+			    divide(
+			        [qtd_execucoes_falhadas],
+			        [qtd_execucoes]
+			    )
+			```
+		formatString: 0%;-0%;0%
+		displayFolder: tx
+		lineageTag: 321135f5-f8c3-4bff-906e-1575db0781e5
+
+	measure intervalo_confianca_inf =
+			
+			VAR x = [qtd_execucoes_falhadas]
+			VAR n = [qtd_execucoes]
+			VAR p = DIVIDE(x, n, 0)
+			VAR z = 1.96
+			VAR D = 1 + z * z / n
+			VAR centre = (p + z*z / (2*n)) / D
+			VAR half = ( z * SQRT( (p*(1-p)/n) + (z*z / (4*n*n)) ) ) / D
+			return
+			    centre - half
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: estatisticas
+		lineageTag: 27f03850-8c7f-4527-bb45-1911cec63bd5
+
+	measure intervalo_confianca_sup = ```
+			
+			VAR x = [qtd_execucoes_falhadas]
+			VAR n = [qtd_execucoes]
+			VAR p = DIVIDE(x, n, 0)
+			VAR z = 1.96
+			VAR D = 1 + z * z / n
+			VAR centre = (p + z*z / (2*n)) / D
+			VAR half = ( z * SQRT( (p*(1-p)/n) + (z*z / (4*n*n)) ) ) / D
+			return
+			    centre + half
+			
+			```
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: estatisticas
+		lineageTag: 25198c2a-0303-4591-aaa7-23b65b2ba6ce
+
+	measure qtd_execucoes_nao_combina = ```
+			
+			    calculate(
+			        [qtd_execucoes],
+			        filter(
+			            fato_biometria_tentativas,
+			            fato_biometria_tentativas[status] = "nao combina"
+			        )
+			    ) + 0
+			```
+		formatString: 0
+		displayFolder: qtd
+		lineageTag: c3f36b90-5b3e-4a67-a7c0-4a04b890de78
+
+	measure tx_execucoes_nao_combina = ```
+			
+			    divide(
+			        [qtd_execucoes_nao_combina],
+			        [qtd_execucoes]
+			    )
+			```
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: tx
+		lineageTag: d4254b5e-51d8-4cdc-a48a-b3b220860c04
+
+	measure qtd_execucoes_combinadas = ```
+			
+			    calculate(
+			        [qtd_execucoes],
+			        filter(
+			            fato_biometria_tentativas,
+			            fato_biometria_tentativas[status] = "combina"
+			        )
+			    )
+			```
+		formatString: 0
+		displayFolder: qtd
+		lineageTag: f30fc22f-636c-4665-b934-9ec75555918f
+
+	measure qtd_threshold_maior_90 = ```
+			
+			    calculate(
+			        count(fato_biometria_tentativas[flg_similaridade_maior_90_percent]),
+			        filter(
+			            fato_biometria_tentativas,
+			            fato_biometria_tentativas[flg_similaridade_maior_90_percent] = 1
+			        )
+			    )
+			```
+		formatString: 0
+		displayFolder: qtd
+		lineageTag: 3efb1ef2-d7ae-41de-8bb0-de1c4dd0ee40
+
+	measure tx_similaridade_maior_90 = ```
+			
+			    divide(
+			        [qtd_threshold_maior_90],
+			        [qtd_execucoes]
+			    )
+			```
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: tx
+		lineageTag: ce32139b-ddd1-4f52-ae31-de3d9d406d3c
+
+	measure tx_similaridade_combina = ```
+			
+			    divide(
+			        [qtd_execucoes_combinadas],
+			        [qtd_execucoes]
+			    )
+			```
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: tx
+		lineageTag: 424dbd75-1108-458e-bf19-6d9d2967ba5c
+
+	measure tx_reducao_cenario_inicial = ```
+			
+			    1 - divide(
+			        [qtd_threshold_maior_90],
+			        [qtd_execucoes_combinadas]
+			    )
+			```
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: tx
+		lineageTag: 78ecb4ca-153f-4d01-8147-0b8b4f2fd0c1
+
+	measure tx_reducao_total = ```
+			
+			    divide(
+			        ([qtd_execucoes_combinadas] - [qtd_threshold_maior_90]),
+			        [qtd_execucoes]
+			    )
+			```
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: tx
+		lineageTag: b9329a47-4f49-4871-b4cd-d94402732a36
+
+	measure media_execucoes_nao_combinam = ```
+			
+			    round(
+			        calculate(
+			            divide(
+			                [qtd_execucoes_nao_combina],
+			                31
+			            ),
+			            all(fato_biometria_tentativas[dia])
+			        ),
+			        0
+			    )
+			```
+		formatString: 0
+		displayFolder: estatisticas
+		lineageTag: 4cf7c4ee-3779-4a57-8258-446b66d15233
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure tx_cancelamento_pedido = ```
+			
+			
+			// divide(
+			    average(dim_biometria[qtd_cancelado])
+			//     count(dim_biometria[id_motorista])
+			// )
+			
+			// var qtd_sessoes = 
+			//         distinctcount(dim_biometria[id_motorista])
+			
+			// var qtd_pedidos_cancelados = 
+			//         calculate(
+			//             distinctcount(dim_motoristas[id_motorista]),
+			//             filter(
+			//                 fato_ordens_servico,
+			//                 fato_ordens_servico[status_ordem] = "cancelado"
+			//             )
+			//         )
+			
+			// return
+			//     divide(
+			//         qtd_pedidos_cancelados,
+			//         qtd_sessoes
+			//     )
+			```
+		displayFolder: estatisticas
+		lineageTag: d09b7c7f-74f7-4933-85ba-b4f65949375e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure qtd_motorista_com_biometria = ```
+			
+			    calculate(
+			        distinctcount(dim_motoristas[id_motorista]),
+			        isblank(dim_biometria[id_sessao]) = false()
+			    )
+			```
+		formatString: 0
+		displayFolder: qtd
+		lineageTag: 6337e1f2-219d-4166-9f70-0927d5af46db
+
+	column Value
+		isHidden
+		formatString: 0
+		lineageTag: 7563b9c7-b11e-47af-8bc4-d07cd55f1441
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Value]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition #medidas = calculated
+		mode: import
+		source = {1}
+
+	annotation PBI_Id = 04dfeaa08c1c43ceb9cb525cd231acb9
+

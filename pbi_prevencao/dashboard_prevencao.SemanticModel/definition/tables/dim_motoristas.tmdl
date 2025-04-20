@@ -1,0 +1,84 @@
+table dim_motoristas
+	lineageTag: 90944ace-a762-40c6-a6dd-512ecfed0102
+
+	column id_motorista
+		dataType: int64
+		formatString: 0
+		lineageTag: cc686965-977d-4d4b-838c-52d9c394c5a6
+		summarizeBy: none
+		sourceColumn: id_motorista
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+	column categoria
+		dataType: string
+		lineageTag: f7fc2cb5-70d0-42c4-a4f3-65d8570d6b4d
+		summarizeBy: none
+		sourceColumn: categoria
+
+		annotation SummarizationSetBy = Automatic
+
+	column modal
+		dataType: string
+		lineageTag: 25a68b3c-9f67-4eb7-b5c6-3c1127d532e1
+		summarizeBy: none
+		sourceColumn: modal
+
+		annotation SummarizationSetBy = Automatic
+
+	column dt_registro
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 5d56fd19-de52-4d02-a63c-68707e413d08
+		summarizeBy: none
+		sourceColumn: dt_registro
+
+		variation Variation
+			isDefault
+			relationship: b2904768-e33e-4f44-8ae5-3d679529f732
+			defaultHierarchy: LocalDateTable_69e126e2-11e7-448d-8534-9c3113b8b06b.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column id_device
+		dataType: string
+		lineageTag: dbdfb62f-bf83-419f-80b3-64d681c86905
+		summarizeBy: none
+		sourceColumn: id_device
+
+		annotation SummarizationSetBy = Automatic
+
+	column nvl_categoria
+		dataType: string
+		lineageTag: 8720ba5f-e8b3-4a95-aa7a-f751ae8de4ab
+		summarizeBy: none
+		sourceColumn: nvl_categoria
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_nvl_categoria
+		dataType: int64
+		formatString: 0
+		lineageTag: 6b447b7f-1a0b-41b0-8757-23b20f569f10
+		summarizeBy: sum
+		sourceColumn: id_nvl_categoria
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_motoristas = m
+		mode: import
+		source =
+				let
+				    Fonte = DatabricksMultiCloud.Catalogs("dbc-2e283651-5789.cloud.databricks.com", "sql/protocolv1/o/1354962499045176/0419-050741-l5d9yxq8", [Catalog=null, Database=null, EnableAutomaticProxyDiscovery=null]),
+				    hive_metastore_Database = Fonte{[Name="hive_metastore",Kind="Database"]}[Data],
+				    gold_Schema = hive_metastore_Database{[Name="gold",Kind="Schema"]}[Data],
+				    dim_motoristas_Table = gold_Schema{[Name="dim_motoristas",Kind="Table"]}[Data]
+				in
+				    dim_motoristas_Table
+
+	annotation PBI_ResultType = Table
+

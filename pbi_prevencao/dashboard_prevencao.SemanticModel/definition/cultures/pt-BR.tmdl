@@ -1,0 +1,6043 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "dim_biometria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_biometria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim biometria": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dim_biometria": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_biometria.id_sessao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_biometria",
+			          "ConceptualProperty": "id_sessao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id sessao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_sessao": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification sessao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity sessao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier sessao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential sessao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "dim_biometria.dt_evento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_biometria",
+			          "ConceptualProperty": "dt_evento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dt evento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt_evento": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_biometria.dt_evento.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_biometria",
+			          "VariationSource": "dt_evento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "dim_biometria.dt_evento.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_biometria",
+			          "VariationSource": "dt_evento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt evento ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_biometria.dt_evento.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_biometria",
+			          "VariationSource": "dt_evento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt evento trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_biometria.dt_evento.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_biometria",
+			          "VariationSource": "dt_evento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt evento mê": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_biometria.dt_evento.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_biometria",
+			          "VariationSource": "dt_evento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt evento dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_biometria.status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_biometria",
+			          "ConceptualProperty": "status"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "level": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "dim_biometria.id_motorista": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_biometria",
+			          "ConceptualProperty": "id_motorista"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id motorista": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_motorista": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification motorista": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity motorista": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier motorista": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential motorista": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "dim_biometria.acao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_biometria",
+			          "ConceptualProperty": "acao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "acao": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_biometria.flg_necessario_acao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_biometria",
+			          "ConceptualProperty": "flg_necessario_acao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "flg necessario acao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "flg_necessario_acao": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_motorista": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_motoristas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim motorista": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dim_motoristas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_motorista.id_motorista": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_motoristas",
+			          "ConceptualProperty": "id_motorista"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id motorista": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_motorista": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification motorista": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity motorista": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier motorista": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential motorista": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "dim_motorista.categoria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_motoristas",
+			          "ConceptualProperty": "categoria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "categoria": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_motorista.modal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_motoristas",
+			          "ConceptualProperty": "modal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "modal": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_motorista.dt_registro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_motoristas",
+			          "ConceptualProperty": "dt_registro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dt registro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt_registro": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_motorista.dt_registro.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_motoristas",
+			          "VariationSource": "dt_registro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "dim_motorista.dt_registro.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_motoristas",
+			          "VariationSource": "dt_registro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt registro ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_motorista.dt_registro.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_motoristas",
+			          "VariationSource": "dt_registro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt registro trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_motorista.dt_registro.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_motoristas",
+			          "VariationSource": "dt_registro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt registro mê": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_motorista.dt_registro.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_motoristas",
+			          "VariationSource": "dt_registro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt registro dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_motorista.id_device": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_motoristas",
+			          "ConceptualProperty": "id_device"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id device": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_device": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "device": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "identification device": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity device": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier device": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential device": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "id stratagem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id ruse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id ploy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id method": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "stratagem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "ruse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_biometria_tentativas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fato biometria tentativa": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fato_biometria_tentativas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa.dt_evento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_biometria_tentativas",
+			          "ConceptualProperty": "dt_evento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dt evento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt_evento": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "fato_biometria_tentativa.id_sessao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_biometria_tentativas",
+			          "ConceptualProperty": "id_sessao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id sessao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_sessao": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification sessao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity sessao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier sessao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential sessao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa.percent_similaridade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_biometria_tentativas",
+			          "ConceptualProperty": "percent_similaridade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "percent similaridade": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percent_similaridade": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa.status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_biometria_tentativas",
+			          "ConceptualProperty": "status"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "level": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa.provedor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_biometria_tentativas",
+			          "ConceptualProperty": "provedor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "provedor": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fato_ordens_servico": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_ordens_servico"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fato ordens servico": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fato orden servico": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "fato_ordens_servico": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fato_ordens_servico.dt_ordem": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_ordens_servico",
+			          "ConceptualProperty": "dt_ordem"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dt ordem": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt_ordem": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "fato_ordens_servico.id_ordem": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_ordens_servico",
+			          "ConceptualProperty": "id_ordem"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id ordem": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_ordem": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification ordem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity ordem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier ordem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential ordem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "fato_ordens_servico.id_motorista": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_ordens_servico",
+			          "ConceptualProperty": "id_motorista"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id motorista": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_motorista": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification motorista": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity motorista": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier motorista": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential motorista": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "fato_ordens_servico.vlr_ordem": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_ordens_servico",
+			          "ConceptualProperty": "vlr_ordem"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vlr ordem": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "vlr_ordem": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fato_ordens_servico.status_ordem": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_ordens_servico",
+			          "ConceptualProperty": "status_ordem"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "status ordem": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "status_ordem": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "category ordem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "importance ordem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "prestige ordem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "prominence ordem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "condition ordem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "class ordem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "grade ordem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "level ordem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "position ordem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "rank ordem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "#medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "#medida": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "no medida": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "num medida": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "number medida": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "medida.value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "#medidas",
+			          "ConceptualProperty": "Value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "significance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "usefulness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "consequence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "medida.qtd_distinta_motoristas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "#medidas",
+			          "ConceptualProperty": "qtd_distinta_motoristas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtd distinta motoristas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "qtd_distinta_motoristas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "medida.media_similaridade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "#medidas",
+			          "ConceptualProperty": "media_similaridade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media similaridade": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "media_similaridade": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "medida.qtd_biometria_tentativas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "#medidas",
+			          "ConceptualProperty": "qtd_biometria_tentativas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtd biometria tentativas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "qtd_biometria_tentativas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "medida.qtd_tentativas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "#medidas",
+			          "ConceptualProperty": "qtd_execucoes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtd execucoes": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "qtd_execucoes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Quantidade de execuções": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Quantidade execuções": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.qtd_tentativas_falhadas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "#medidas",
+			          "ConceptualProperty": "qtd_execucoes_falhadas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtd execucoes falhadas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "qtd_execucoes_falhadas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Quantidade de execuções falhadas": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.tx_tentativas_falhadas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "#medidas",
+			          "ConceptualProperty": "tx_execucoes_falhadas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tx execucoes falhadas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tx_execucoes_falhadas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Taxa de falhas": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.intervalo_confianca_inf": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "#medidas",
+			          "ConceptualProperty": "intervalo_confianca_inf"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "intervalo confianca inf": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "intervalo_confianca_inf": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Intervalo de confiança inferior": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.intervalo_confianca_sup": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "#medidas",
+			          "ConceptualProperty": "intervalo_confianca_sup"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "intervalo confianca sup": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "intervalo_confianca_sup": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "intervalo confianca mouthful": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "intervalo confianca sip": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "intervalo confianca swallow": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "intervalo confianca drink": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "intervalo confianca draught": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "intervalo confianca draft": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "intervalo confianca nip": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "intervalo confianca drop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "intervalo confianca taste": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "Intervalo de confiança superior": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.qtd_tentativas_nao_combina": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "#medidas",
+			          "ConceptualProperty": "qtd_execucoes_nao_combina"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtd execucoes nao combina": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "qtd_execucoes_nao_combina": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Quantidade de execuções sem combinações": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Quantidade execuções sem combinações": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.tx_tentativas_nao_combina": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "#medidas",
+			          "ConceptualProperty": "tx_execucoes_nao_combina"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tx execucoes nao combina": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tx_execucoes_nao_combina": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Taxa de execuções sem combinações": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dim_motorista.nvl_categoria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_motoristas",
+			          "ConceptualProperty": "nvl_categoria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nvl categoria": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nvl_categoria": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Nível/Categoria": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa.flg_similaridade_maior_90_percent": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_biometria_tentativas",
+			          "ConceptualProperty": "flg_similaridade_maior_90_percent"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "flg similaridade maior 90 percent": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "flg_similaridade_maior_90_percent": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "flg similaridade maior 90 percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.494
+			          }
+			        },
+			        {
+			          "flg similaridade maior 90 ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.494
+			          }
+			        },
+			        {
+			          "flg similaridade maior 90 percentile": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.494
+			          }
+			        },
+			        {
+			          "flg similaridade maior 90 part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        },
+			        {
+			          "flg similaridade maior 90 proportion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        },
+			        {
+			          "flg similaridade maior 90 fraction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        }
+			      ]
+			    },
+			    "dim_motorista.id_nvl_categoria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_motoristas",
+			          "ConceptualProperty": "id_nvl_categoria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id nvl categoria": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_nvl_categoria": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification nvl categoria": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identity nvl categoria": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identifier nvl categoria": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "credential nvl categoria": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "medida.qtd_execucoes_combinadas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "#medidas",
+			          "ConceptualProperty": "qtd_execucoes_combinadas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtd execucoes combinadas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "qtd_execucoes_combinadas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "medida.qtd_threshold_maior_90": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "#medidas",
+			          "ConceptualProperty": "qtd_threshold_maior_90"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtd threshold maior 90": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "qtd_threshold_maior_90": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "medida.tx_similaridade_maior_90": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "#medidas",
+			          "ConceptualProperty": "tx_similaridade_maior_90"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tx similaridade maior 90": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tx_similaridade_maior_90": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "% do total de execuções": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.tx_similaridade_combina": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "#medidas",
+			          "ConceptualProperty": "tx_similaridade_combina"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tx similaridade combina": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tx_similaridade_combina": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "% do total de execuções": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.tx_reducao_cenario_inicial": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "#medidas",
+			          "ConceptualProperty": "tx_reducao_cenario_inicial"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tx reducao cenario inicial": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tx_reducao_cenario_inicial": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "medida.tx_reducao_total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "#medidas",
+			          "ConceptualProperty": "tx_reducao_total"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tx reducao total": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tx_reducao_total": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "tx reducao aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "tx reducao overall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "medida.media_execucoes_nao_combinam": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "#medidas",
+			          "ConceptualProperty": "media_execucoes_nao_combinam"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media execucoes nao combinam": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "media_execucoes_nao_combinam": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Média de falhas": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.tx_cancelamento_pedido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "#medidas",
+			          "ConceptualProperty": "tx_cancelamento_pedido"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tx cancelamento pedido": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tx_cancelamento_pedido": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Taxa de cancelamento": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa.dt_evento.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_biometria_tentativas",
+			          "VariationSource": "dt_evento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa.dt_evento.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_biometria_tentativas",
+			          "VariationSource": "dt_evento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt evento ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa.dt_evento.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_biometria_tentativas",
+			          "VariationSource": "dt_evento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt evento trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa.dt_evento.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_biometria_tentativas",
+			          "VariationSource": "dt_evento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt evento mê": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa.dt_evento.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_biometria_tentativas",
+			          "VariationSource": "dt_evento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt evento dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_biometria_tentativas",
+			          "ConceptualProperty": "dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fato_ordens_servico.dt_ordem.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_ordens_servico",
+			          "VariationSource": "dt_ordem",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "fato_ordens_servico.dt_ordem.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_ordens_servico",
+			          "VariationSource": "dt_ordem",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt ordem ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fato_ordens_servico.dt_ordem.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_ordens_servico",
+			          "VariationSource": "dt_ordem",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt ordem trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fato_ordens_servico.dt_ordem.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_ordens_servico",
+			          "VariationSource": "dt_ordem",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt ordem mê": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fato_ordens_servico.dt_ordem.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_ordens_servico",
+			          "VariationSource": "dt_ordem",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt ordem dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.qtd_motorista_com_biometria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "#medidas",
+			          "ConceptualProperty": "qtd_motorista_com_biometria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtd motorista com biometria": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "qtd_motorista_com_biometria": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "fato_ordens_servico_dt_ordem_mê_has_fato_ordens_servico_dt_ordem_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_ordens_servico"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_ordens_servico.dt_ordem.mê": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico.dt_ordem.mê"
+			          }
+			        },
+			        "fato_ordens_servico.dt_ordem.dia": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico.dt_ordem.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_ordens_servico.dt_ordem.mê"
+			            },
+			            "Object": {
+			              "Role": "fato_ordens_servico.dt_ordem.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_ordens_servico.dt_ordem.dia"
+			            },
+			            "Object": {
+			              "Role": "fato_ordens_servico.dt_ordem.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "fato_ordens_servico.dt_ordem.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "fato_ordens_servico.dt_ordem.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê3"
+			        }
+			      ]
+			    },
+			    "fato_ordens_servico_dt_ordem_trimestre_has_fato_ordens_servico_dt_ordem_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_ordens_servico"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_ordens_servico.dt_ordem.trimestre": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico.dt_ordem.trimestre"
+			          }
+			        },
+			        "fato_ordens_servico.dt_ordem.mê": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico.dt_ordem.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_ordens_servico.dt_ordem.trimestre"
+			            },
+			            "Object": {
+			              "Role": "fato_ordens_servico.dt_ordem.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_ordens_servico.dt_ordem.mê"
+			            },
+			            "Object": {
+			              "Role": "fato_ordens_servico.dt_ordem.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "fato_ordens_servico.dt_ordem.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "fato_ordens_servico.dt_ordem.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres3"
+			        }
+			      ]
+			    },
+			    "fato_ordens_servico_dt_ordem_ano_has_fato_ordens_servico_dt_ordem_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_ordens_servico"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_ordens_servico.dt_ordem.ano": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico.dt_ordem.ano"
+			          }
+			        },
+			        "fato_ordens_servico.dt_ordem.trimestre": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico.dt_ordem.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_ordens_servico.dt_ordem.ano"
+			            },
+			            "Object": {
+			              "Role": "fato_ordens_servico.dt_ordem.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_ordens_servico.dt_ordem.trimestre"
+			            },
+			            "Object": {
+			              "Role": "fato_ordens_servico.dt_ordem.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "fato_ordens_servico.dt_ordem.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "fato_ordens_servico.dt_ordem.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos3"
+			        }
+			      ]
+			    },
+			    "fato_ordens_servico_dt_ordem_hierarquia_de_data_has_fato_ordens_servico_dt_ordem_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_ordens_servico"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_ordens_servico.dt_ordem.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico.dt_ordem.hierarquia_de_data"
+			          }
+			        },
+			        "fato_ordens_servico.dt_ordem.dia": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico.dt_ordem.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_ordens_servico.dt_ordem.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "fato_ordens_servico.dt_ordem.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias"
+			        }
+			      ]
+			    },
+			    "fato_ordens_servico_dt_ordem_hierarquia_de_data_has_fato_ordens_servico_dt_ordem_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_ordens_servico"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_ordens_servico.dt_ordem.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico.dt_ordem.hierarquia_de_data"
+			          }
+			        },
+			        "fato_ordens_servico.dt_ordem.mê": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico.dt_ordem.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_ordens_servico.dt_ordem.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "fato_ordens_servico.dt_ordem.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê"
+			        }
+			      ]
+			    },
+			    "fato_ordens_servico_dt_ordem_hierarquia_de_data_has_fato_ordens_servico_dt_ordem_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_ordens_servico"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_ordens_servico.dt_ordem.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico.dt_ordem.hierarquia_de_data"
+			          }
+			        },
+			        "fato_ordens_servico.dt_ordem.trimestre": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico.dt_ordem.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_ordens_servico.dt_ordem.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "fato_ordens_servico.dt_ordem.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres"
+			        }
+			      ]
+			    },
+			    "fato_ordens_servico_dt_ordem_hierarquia_de_data_has_fato_ordens_servico_dt_ordem_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_ordens_servico"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_ordens_servico.dt_ordem.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico.dt_ordem.hierarquia_de_data"
+			          }
+			        },
+			        "fato_ordens_servico.dt_ordem.ano": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico.dt_ordem.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_ordens_servico.dt_ordem.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "fato_ordens_servico.dt_ordem.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos"
+			        }
+			      ]
+			    },
+			    "fato_ordens_servico_dt_ordem_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_ordens_servico"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_ordens_servico.dt_ordem": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico.dt_ordem"
+			          }
+			        },
+			        "fato_ordens_servico.dt_ordem.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico.dt_ordem.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_ordens_servico.dt_ordem"
+			            },
+			            "Object": {
+			              "Role": "fato_ordens_servico.dt_ordem.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dt_ordems_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_dt_evento_mê_has_fato_biometria_tentativa_dt_evento_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa.dt_evento.mê": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa.dt_evento.mê"
+			          }
+			        },
+			        "fato_biometria_tentativa.dt_evento.dia": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa.dt_evento.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa.dt_evento.mê"
+			            },
+			            "Object": {
+			              "Role": "fato_biometria_tentativa.dt_evento.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa.dt_evento.dia"
+			            },
+			            "Object": {
+			              "Role": "fato_biometria_tentativa.dt_evento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa.dt_evento.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "fato_biometria_tentativa.dt_evento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê2"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_dt_evento_trimestre_has_fato_biometria_tentativa_dt_evento_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa.dt_evento.trimestre": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa.dt_evento.trimestre"
+			          }
+			        },
+			        "fato_biometria_tentativa.dt_evento.mê": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa.dt_evento.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa.dt_evento.trimestre"
+			            },
+			            "Object": {
+			              "Role": "fato_biometria_tentativa.dt_evento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa.dt_evento.mê"
+			            },
+			            "Object": {
+			              "Role": "fato_biometria_tentativa.dt_evento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa.dt_evento.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "fato_biometria_tentativa.dt_evento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres2"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_dt_evento_ano_has_fato_biometria_tentativa_dt_evento_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa.dt_evento.ano": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa.dt_evento.ano"
+			          }
+			        },
+			        "fato_biometria_tentativa.dt_evento.trimestre": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa.dt_evento.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa.dt_evento.ano"
+			            },
+			            "Object": {
+			              "Role": "fato_biometria_tentativa.dt_evento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa.dt_evento.trimestre"
+			            },
+			            "Object": {
+			              "Role": "fato_biometria_tentativa.dt_evento.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa.dt_evento.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "fato_biometria_tentativa.dt_evento.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos2"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_dt_evento_hierarquia_de_data_has_fato_biometria_tentativa_dt_evento_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa.dt_evento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa.dt_evento.hierarquia_de_data"
+			          }
+			        },
+			        "fato_biometria_tentativa.dt_evento.dia": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa.dt_evento.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa.dt_evento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "fato_biometria_tentativa.dt_evento.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias1"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_dt_evento_hierarquia_de_data_has_fato_biometria_tentativa_dt_evento_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa.dt_evento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa.dt_evento.hierarquia_de_data"
+			          }
+			        },
+			        "fato_biometria_tentativa.dt_evento.mê": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa.dt_evento.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa.dt_evento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "fato_biometria_tentativa.dt_evento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê1"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_dt_evento_hierarquia_de_data_has_fato_biometria_tentativa_dt_evento_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa.dt_evento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa.dt_evento.hierarquia_de_data"
+			          }
+			        },
+			        "fato_biometria_tentativa.dt_evento.trimestre": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa.dt_evento.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa.dt_evento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "fato_biometria_tentativa.dt_evento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres1"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_dt_evento_hierarquia_de_data_has_fato_biometria_tentativa_dt_evento_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa.dt_evento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa.dt_evento.hierarquia_de_data"
+			          }
+			        },
+			        "fato_biometria_tentativa.dt_evento.ano": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa.dt_evento.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa.dt_evento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "fato_biometria_tentativa.dt_evento.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos1"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_dt_evento_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa.dt_evento": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa.dt_evento"
+			          }
+			        },
+			        "fato_biometria_tentativa.dt_evento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa.dt_evento.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa.dt_evento"
+			            },
+			            "Object": {
+			              "Role": "fato_biometria_tentativa.dt_evento.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dt_eventos_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "dim_motorista_dt_registro_mê_has_dim_motorista_dt_registro_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_motoristas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_motorista.dt_registro.mê": {
+			          "Target": {
+			            "Entity": "dim_motorista.dt_registro.mê"
+			          }
+			        },
+			        "dim_motorista.dt_registro.dia": {
+			          "Target": {
+			            "Entity": "dim_motorista.dt_registro.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motorista.dt_registro.mê"
+			            },
+			            "Object": {
+			              "Role": "dim_motorista.dt_registro.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motorista.dt_registro.dia"
+			            },
+			            "Object": {
+			              "Role": "dim_motorista.dt_registro.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dim_motorista.dt_registro.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_motorista.dt_registro.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê1"
+			        }
+			      ]
+			    },
+			    "dim_motorista_dt_registro_trimestre_has_dim_motorista_dt_registro_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_motoristas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_motorista.dt_registro.trimestre": {
+			          "Target": {
+			            "Entity": "dim_motorista.dt_registro.trimestre"
+			          }
+			        },
+			        "dim_motorista.dt_registro.mê": {
+			          "Target": {
+			            "Entity": "dim_motorista.dt_registro.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motorista.dt_registro.trimestre"
+			            },
+			            "Object": {
+			              "Role": "dim_motorista.dt_registro.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motorista.dt_registro.mê"
+			            },
+			            "Object": {
+			              "Role": "dim_motorista.dt_registro.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dim_motorista.dt_registro.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_motorista.dt_registro.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres1"
+			        }
+			      ]
+			    },
+			    "dim_motorista_dt_registro_ano_has_dim_motorista_dt_registro_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_motoristas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_motorista.dt_registro.ano": {
+			          "Target": {
+			            "Entity": "dim_motorista.dt_registro.ano"
+			          }
+			        },
+			        "dim_motorista.dt_registro.trimestre": {
+			          "Target": {
+			            "Entity": "dim_motorista.dt_registro.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motorista.dt_registro.ano"
+			            },
+			            "Object": {
+			              "Role": "dim_motorista.dt_registro.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motorista.dt_registro.trimestre"
+			            },
+			            "Object": {
+			              "Role": "dim_motorista.dt_registro.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dim_motorista.dt_registro.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_motorista.dt_registro.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos1"
+			        }
+			      ]
+			    },
+			    "dim_motorista_dt_registro_hierarquia_de_data_has_dim_motorista_dt_registro_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_motoristas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_motorista.dt_registro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "dim_motorista.dt_registro.hierarquia_de_data"
+			          }
+			        },
+			        "dim_motorista.dt_registro.dia": {
+			          "Target": {
+			            "Entity": "dim_motorista.dt_registro.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motorista.dt_registro.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "dim_motorista.dt_registro.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias2"
+			        }
+			      ]
+			    },
+			    "dim_motorista_dt_registro_hierarquia_de_data_has_dim_motorista_dt_registro_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_motoristas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_motorista.dt_registro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "dim_motorista.dt_registro.hierarquia_de_data"
+			          }
+			        },
+			        "dim_motorista.dt_registro.mê": {
+			          "Target": {
+			            "Entity": "dim_motorista.dt_registro.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motorista.dt_registro.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "dim_motorista.dt_registro.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê2"
+			        }
+			      ]
+			    },
+			    "dim_motorista_dt_registro_hierarquia_de_data_has_dim_motorista_dt_registro_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_motoristas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_motorista.dt_registro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "dim_motorista.dt_registro.hierarquia_de_data"
+			          }
+			        },
+			        "dim_motorista.dt_registro.trimestre": {
+			          "Target": {
+			            "Entity": "dim_motorista.dt_registro.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motorista.dt_registro.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "dim_motorista.dt_registro.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres2"
+			        }
+			      ]
+			    },
+			    "dim_motorista_dt_registro_hierarquia_de_data_has_dim_motorista_dt_registro_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_motoristas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_motorista.dt_registro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "dim_motorista.dt_registro.hierarquia_de_data"
+			          }
+			        },
+			        "dim_motorista.dt_registro.ano": {
+			          "Target": {
+			            "Entity": "dim_motorista.dt_registro.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motorista.dt_registro.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "dim_motorista.dt_registro.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos2"
+			        }
+			      ]
+			    },
+			    "dim_motorista_dt_registro_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_motoristas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_motorista.dt_registro": {
+			          "Target": {
+			            "Entity": "dim_motorista.dt_registro"
+			          }
+			        },
+			        "dim_motorista.dt_registro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "dim_motorista.dt_registro.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motorista.dt_registro"
+			            },
+			            "Object": {
+			              "Role": "dim_motorista.dt_registro.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dt_registros_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "dim_biometria_dt_evento_mê_has_dim_biometria_dt_evento_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_biometria"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_biometria.dt_evento.mê": {
+			          "Target": {
+			            "Entity": "dim_biometria.dt_evento.mê"
+			          }
+			        },
+			        "dim_biometria.dt_evento.dia": {
+			          "Target": {
+			            "Entity": "dim_biometria.dt_evento.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_biometria.dt_evento.mê"
+			            },
+			            "Object": {
+			              "Role": "dim_biometria.dt_evento.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_biometria.dt_evento.dia"
+			            },
+			            "Object": {
+			              "Role": "dim_biometria.dt_evento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dim_biometria.dt_evento.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_biometria.dt_evento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê"
+			        }
+			      ]
+			    },
+			    "dim_biometria_dt_evento_trimestre_has_dim_biometria_dt_evento_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_biometria"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_biometria.dt_evento.trimestre": {
+			          "Target": {
+			            "Entity": "dim_biometria.dt_evento.trimestre"
+			          }
+			        },
+			        "dim_biometria.dt_evento.mê": {
+			          "Target": {
+			            "Entity": "dim_biometria.dt_evento.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_biometria.dt_evento.trimestre"
+			            },
+			            "Object": {
+			              "Role": "dim_biometria.dt_evento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_biometria.dt_evento.mê"
+			            },
+			            "Object": {
+			              "Role": "dim_biometria.dt_evento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dim_biometria.dt_evento.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_biometria.dt_evento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "dim_biometria_dt_evento_ano_has_dim_biometria_dt_evento_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_biometria"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_biometria.dt_evento.ano": {
+			          "Target": {
+			            "Entity": "dim_biometria.dt_evento.ano"
+			          }
+			        },
+			        "dim_biometria.dt_evento.trimestre": {
+			          "Target": {
+			            "Entity": "dim_biometria.dt_evento.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_biometria.dt_evento.ano"
+			            },
+			            "Object": {
+			              "Role": "dim_biometria.dt_evento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_biometria.dt_evento.trimestre"
+			            },
+			            "Object": {
+			              "Role": "dim_biometria.dt_evento.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dim_biometria.dt_evento.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_biometria.dt_evento.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos"
+			        }
+			      ]
+			    },
+			    "dim_biometria_dt_evento_hierarquia_de_data_has_dim_biometria_dt_evento_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_biometria"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_biometria.dt_evento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "dim_biometria.dt_evento.hierarquia_de_data"
+			          }
+			        },
+			        "dim_biometria.dt_evento.dia": {
+			          "Target": {
+			            "Entity": "dim_biometria.dt_evento.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_biometria.dt_evento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "dim_biometria.dt_evento.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias3"
+			        }
+			      ]
+			    },
+			    "dim_biometria_dt_evento_hierarquia_de_data_has_dim_biometria_dt_evento_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_biometria"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_biometria.dt_evento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "dim_biometria.dt_evento.hierarquia_de_data"
+			          }
+			        },
+			        "dim_biometria.dt_evento.mê": {
+			          "Target": {
+			            "Entity": "dim_biometria.dt_evento.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_biometria.dt_evento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "dim_biometria.dt_evento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê3"
+			        }
+			      ]
+			    },
+			    "dim_biometria_dt_evento_hierarquia_de_data_has_dim_biometria_dt_evento_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_biometria"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_biometria.dt_evento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "dim_biometria.dt_evento.hierarquia_de_data"
+			          }
+			        },
+			        "dim_biometria.dt_evento.trimestre": {
+			          "Target": {
+			            "Entity": "dim_biometria.dt_evento.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_biometria.dt_evento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "dim_biometria.dt_evento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres3"
+			        }
+			      ]
+			    },
+			    "dim_biometria_dt_evento_hierarquia_de_data_has_dim_biometria_dt_evento_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_biometria"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_biometria.dt_evento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "dim_biometria.dt_evento.hierarquia_de_data"
+			          }
+			        },
+			        "dim_biometria.dt_evento.ano": {
+			          "Target": {
+			            "Entity": "dim_biometria.dt_evento.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_biometria.dt_evento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "dim_biometria.dt_evento.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos3"
+			        }
+			      ]
+			    },
+			    "dim_biometria_dt_evento_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_biometria"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_biometria.dt_evento": {
+			          "Target": {
+			            "Entity": "dim_biometria.dt_evento"
+			          }
+			        },
+			        "dim_biometria.dt_evento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "dim_biometria.dt_evento.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_biometria.dt_evento"
+			            },
+			            "Object": {
+			              "Role": "dim_biometria.dt_evento.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dt_eventos_have_hierarquia_de_data1"
+			        }
+			      ]
+			    },
+			    "fato_ordens_servico_has_dim_motorista": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_ordens_servico"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_ordens_servico": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico"
+			          }
+			        },
+			        "dim_motorista": {
+			          "Target": {
+			            "Entity": "dim_motorista"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_ordens_servico"
+			            },
+			            "Object": {
+			              "Role": "dim_motorista"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_ordens_servicos_have_dim_motoristas"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motorista"
+			            },
+			            "Object": {
+			              "Role": "fato_ordens_servico"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_motoristas_have_fato_ordens_servicos"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_has_dim_biometria": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa"
+			          }
+			        },
+			        "dim_biometria": {
+			          "Target": {
+			            "Entity": "dim_biometria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa"
+			            },
+			            "Object": {
+			              "Role": "dim_biometria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_biometria_tentativas_have_dim_biometrias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_biometria"
+			            },
+			            "Object": {
+			              "Role": "fato_biometria_tentativa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_biometrias_have_fato_biometria_tentativas"
+			        }
+			      ]
+			    },
+			    "dim_motorista_has_dim_biometria": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_motoristas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_motorista": {
+			          "Target": {
+			            "Entity": "dim_motorista"
+			          }
+			        },
+			        "dim_biometria": {
+			          "Target": {
+			            "Entity": "dim_biometria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motorista"
+			            },
+			            "Object": {
+			              "Role": "dim_biometria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_motoristas_have_dim_biometrias"
+			        }
+			      ]
+			    },
+			    "dim_biometria_has_dim_motorista": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_biometria"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_biometria": {
+			          "Target": {
+			            "Entity": "dim_biometria"
+			          }
+			        },
+			        "dim_motorista": {
+			          "Target": {
+			            "Entity": "dim_motorista"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_biometria"
+			            },
+			            "Object": {
+			              "Role": "dim_motorista"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_biometrias_have_dim_motoristas"
+			        }
+			      ]
+			    },
+			    "dim_motorista_has_medida_qtd_motorista_com_biometria": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_motoristas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_motorista": {
+			          "Target": {
+			            "Entity": "dim_motorista"
+			          }
+			        },
+			        "medida.qtd_motorista_com_biometria": {
+			          "Target": {
+			            "Entity": "medida.qtd_motorista_com_biometria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motorista"
+			            },
+			            "Object": {
+			              "Role": "medida.qtd_motorista_com_biometria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_motoristas_have_qtd_motorista_com_biometria"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_has_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa"
+			          }
+			        },
+			        "fato_biometria_tentativa.dia": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa"
+			            },
+			            "Object": {
+			              "Role": "fato_biometria_tentativa.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_biometria_tentativas_have_dias"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_has_medida_tx_cancelamento_pedido": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa"
+			          }
+			        },
+			        "medida.tx_cancelamento_pedido": {
+			          "Target": {
+			            "Entity": "medida.tx_cancelamento_pedido"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa"
+			            },
+			            "Object": {
+			              "Role": "medida.tx_cancelamento_pedido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_biometria_tentativas_have_tx_cancelamento_pedido"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_has_medida_media_execucoes_nao_combinam": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa"
+			          }
+			        },
+			        "medida.media_execucoes_nao_combinam": {
+			          "Target": {
+			            "Entity": "medida.media_execucoes_nao_combinam"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa"
+			            },
+			            "Object": {
+			              "Role": "medida.media_execucoes_nao_combinam"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_biometria_tentativas_have_media_execucoes_nao_combinam"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_has_medida_tx_reducao_total": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa"
+			          }
+			        },
+			        "medida.tx_reducao_total": {
+			          "Target": {
+			            "Entity": "medida.tx_reducao_total"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa"
+			            },
+			            "Object": {
+			              "Role": "medida.tx_reducao_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_biometria_tentativas_have_tx_reducao_total"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_has_medida_tx_reducao_cenario_inicial": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa"
+			          }
+			        },
+			        "medida.tx_reducao_cenario_inicial": {
+			          "Target": {
+			            "Entity": "medida.tx_reducao_cenario_inicial"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa"
+			            },
+			            "Object": {
+			              "Role": "medida.tx_reducao_cenario_inicial"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_biometria_tentativas_have_tx_reducao_cenario_inicial"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_has_medida_tx_similaridade_combina": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa"
+			          }
+			        },
+			        "medida.tx_similaridade_combina": {
+			          "Target": {
+			            "Entity": "medida.tx_similaridade_combina"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa"
+			            },
+			            "Object": {
+			              "Role": "medida.tx_similaridade_combina"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_biometria_tentativas_have_tx_similaridade_combina"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_has_medida_tx_similaridade_maior_90": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa"
+			          }
+			        },
+			        "medida.tx_similaridade_maior_90": {
+			          "Target": {
+			            "Entity": "medida.tx_similaridade_maior_90"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa"
+			            },
+			            "Object": {
+			              "Role": "medida.tx_similaridade_maior_90"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_biometria_tentativas_have_tx_similaridade_maior_90"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_has_medida_qtd_threshold_maior_90": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa"
+			          }
+			        },
+			        "medida.qtd_threshold_maior_90": {
+			          "Target": {
+			            "Entity": "medida.qtd_threshold_maior_90"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa"
+			            },
+			            "Object": {
+			              "Role": "medida.qtd_threshold_maior_90"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_biometria_tentativas_have_qtd_threshold_maior_90"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_has_medida_qtd_execucoes_combinadas": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa"
+			          }
+			        },
+			        "medida.qtd_execucoes_combinadas": {
+			          "Target": {
+			            "Entity": "medida.qtd_execucoes_combinadas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa"
+			            },
+			            "Object": {
+			              "Role": "medida.qtd_execucoes_combinadas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_biometria_tentativas_have_qtd_execucoes_combinadas"
+			        }
+			      ]
+			    },
+			    "dim_motorista_has_id_nvl_categoria": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_motoristas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_motorista": {
+			          "Target": {
+			            "Entity": "dim_motorista"
+			          }
+			        },
+			        "dim_motorista.id_nvl_categoria": {
+			          "Target": {
+			            "Entity": "dim_motorista.id_nvl_categoria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motorista"
+			            },
+			            "Object": {
+			              "Role": "dim_motorista.id_nvl_categoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_motoristas_have_id_nvl_categorias"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_has_flg_similaridade_maior_90_percent": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa"
+			          }
+			        },
+			        "fato_biometria_tentativa.flg_similaridade_maior_90_percent": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa.flg_similaridade_maior_90_percent"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa"
+			            },
+			            "Object": {
+			              "Role": "fato_biometria_tentativa.flg_similaridade_maior_90_percent"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_biometria_tentativas_have_flg_similaridade_maior_90_percent"
+			        }
+			      ]
+			    },
+			    "dim_motorista_has_nvl_categoria": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_motoristas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_motorista": {
+			          "Target": {
+			            "Entity": "dim_motorista"
+			          }
+			        },
+			        "dim_motorista.nvl_categoria": {
+			          "Target": {
+			            "Entity": "dim_motorista.nvl_categoria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motorista"
+			            },
+			            "Object": {
+			              "Role": "dim_motorista.nvl_categoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_motoristas_have_nvl_categorias"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_has_medida_tx_tentativas_nao_combina": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa"
+			          }
+			        },
+			        "medida.tx_tentativas_nao_combina": {
+			          "Target": {
+			            "Entity": "medida.tx_tentativas_nao_combina"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa"
+			            },
+			            "Object": {
+			              "Role": "medida.tx_tentativas_nao_combina"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_biometria_tentativas_have_tx_execucoes_nao_combina"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_has_medida_qtd_tentativas_nao_combina": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa"
+			          }
+			        },
+			        "medida.qtd_tentativas_nao_combina": {
+			          "Target": {
+			            "Entity": "medida.qtd_tentativas_nao_combina"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa"
+			            },
+			            "Object": {
+			              "Role": "medida.qtd_tentativas_nao_combina"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_biometria_tentativas_have_qtd_execucoes_nao_combina"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_has_medida_intervalo_confianca_sup": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa"
+			          }
+			        },
+			        "medida.intervalo_confianca_sup": {
+			          "Target": {
+			            "Entity": "medida.intervalo_confianca_sup"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa"
+			            },
+			            "Object": {
+			              "Role": "medida.intervalo_confianca_sup"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_biometria_tentativas_have_intervalo_confianca_sup"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_has_medida_intervalo_confianca_inf": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa"
+			          }
+			        },
+			        "medida.intervalo_confianca_inf": {
+			          "Target": {
+			            "Entity": "medida.intervalo_confianca_inf"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa"
+			            },
+			            "Object": {
+			              "Role": "medida.intervalo_confianca_inf"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_biometria_tentativas_have_intervalo_confianca_inf"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_has_medida_tx_tentativas_falhadas": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa"
+			          }
+			        },
+			        "medida.tx_tentativas_falhadas": {
+			          "Target": {
+			            "Entity": "medida.tx_tentativas_falhadas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa"
+			            },
+			            "Object": {
+			              "Role": "medida.tx_tentativas_falhadas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_biometria_tentativas_have_tx_execucoes_falhadas"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_has_medida_qtd_tentativas_falhadas": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa"
+			          }
+			        },
+			        "medida.qtd_tentativas_falhadas": {
+			          "Target": {
+			            "Entity": "medida.qtd_tentativas_falhadas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa"
+			            },
+			            "Object": {
+			              "Role": "medida.qtd_tentativas_falhadas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_biometria_tentativas_have_qtd_execucoes_falhadas"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_has_medida_qtd_tentativas": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa"
+			          }
+			        },
+			        "medida.qtd_tentativas": {
+			          "Target": {
+			            "Entity": "medida.qtd_tentativas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa"
+			            },
+			            "Object": {
+			              "Role": "medida.qtd_tentativas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_biometria_tentativas_have_qtd_execucoes"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_has_medida_qtd_biometria_tentativas": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa"
+			          }
+			        },
+			        "medida.qtd_biometria_tentativas": {
+			          "Target": {
+			            "Entity": "medida.qtd_biometria_tentativas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa"
+			            },
+			            "Object": {
+			              "Role": "medida.qtd_biometria_tentativas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_biometria_tentativas_have_qtd_biometria_tentativas"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_has_medida_media_similaridade": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa"
+			          }
+			        },
+			        "medida.media_similaridade": {
+			          "Target": {
+			            "Entity": "medida.media_similaridade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa"
+			            },
+			            "Object": {
+			              "Role": "medida.media_similaridade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_biometria_tentativas_have_media_similaridade"
+			        }
+			      ]
+			    },
+			    "dim_motorista_has_medida_qtd_total_motoristas": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_motoristas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_motorista": {
+			          "Target": {
+			            "Entity": "dim_motorista"
+			          }
+			        },
+			        "medida.qtd_total_motoristas": {
+			          "Target": {
+			            "Entity": "medida.qtd_total_motoristas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motorista"
+			            },
+			            "Object": {
+			              "Role": "medida.qtd_total_motoristas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_motoristas_have_qtd_total_motoristas"
+			        }
+			      ]
+			    },
+			    "dim_motorista_has_medida_qtd_distinta_motoristas": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_motoristas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_motorista": {
+			          "Target": {
+			            "Entity": "dim_motorista"
+			          }
+			        },
+			        "medida.qtd_distinta_motoristas": {
+			          "Target": {
+			            "Entity": "medida.qtd_distinta_motoristas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motorista"
+			            },
+			            "Object": {
+			              "Role": "medida.qtd_distinta_motoristas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_motoristas_have_qtd_distinta_motoristas"
+			        }
+			      ]
+			    },
+			    "dim_motorista_has_medida_qtd_motorista_sem_biometria": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_motoristas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_motorista": {
+			          "Target": {
+			            "Entity": "dim_motorista"
+			          }
+			        },
+			        "medida.qtd_motorista_sem_biometria": {
+			          "Target": {
+			            "Entity": "medida.qtd_motorista_sem_biometria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motorista"
+			            },
+			            "Object": {
+			              "Role": "medida.qtd_motorista_sem_biometria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_motoristas_have_qtd_motorista_sem_biometria"
+			        }
+			      ]
+			    },
+			    "fato_ordens_servico_has_status_ordem": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_ordens_servico"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_ordens_servico": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico"
+			          }
+			        },
+			        "fato_ordens_servico.status_ordem": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico.status_ordem"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_ordens_servico"
+			            },
+			            "Object": {
+			              "Role": "fato_ordens_servico.status_ordem"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_ordens_servicos_have_status_ordems"
+			        }
+			      ]
+			    },
+			    "fato_ordens_servico_has_vlr_ordem": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_ordens_servico"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_ordens_servico": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico"
+			          }
+			        },
+			        "fato_ordens_servico.vlr_ordem": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico.vlr_ordem"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_ordens_servico"
+			            },
+			            "Object": {
+			              "Role": "fato_ordens_servico.vlr_ordem"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_ordens_servicos_have_vlr_ordems"
+			        }
+			      ]
+			    },
+			    "fato_ordens_servico_has_id_ordem": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_ordens_servico"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_ordens_servico": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico"
+			          }
+			        },
+			        "fato_ordens_servico.id_ordem": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico.id_ordem"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_ordens_servico"
+			            },
+			            "Object": {
+			              "Role": "fato_ordens_servico.id_ordem"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_ordens_servicos_have_id_ordems"
+			        }
+			      ]
+			    },
+			    "fato_ordens_servico_has_dt_ordem": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_ordens_servico"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_ordens_servico": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico"
+			          }
+			        },
+			        "fato_ordens_servico.dt_ordem": {
+			          "Target": {
+			            "Entity": "fato_ordens_servico.dt_ordem"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_ordens_servico"
+			            },
+			            "Object": {
+			              "Role": "fato_ordens_servico.dt_ordem"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_ordens_servicos_have_dt_ordems"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_has_provedor": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa"
+			          }
+			        },
+			        "fato_biometria_tentativa.provedor": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa.provedor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa"
+			            },
+			            "Object": {
+			              "Role": "fato_biometria_tentativa.provedor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_biometria_tentativas_have_provedors"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_has_status": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa"
+			          }
+			        },
+			        "fato_biometria_tentativa.status": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa.status"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa"
+			            },
+			            "Object": {
+			              "Role": "fato_biometria_tentativa.status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_biometria_tentativas_have_statuses"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_has_percent_similaridade": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa"
+			          }
+			        },
+			        "fato_biometria_tentativa.percent_similaridade": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa.percent_similaridade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa"
+			            },
+			            "Object": {
+			              "Role": "fato_biometria_tentativa.percent_similaridade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_biometria_tentativas_have_percent_similaridades"
+			        }
+			      ]
+			    },
+			    "fato_biometria_tentativa_has_dt_evento": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_biometria_tentativas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_biometria_tentativa": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa"
+			          }
+			        },
+			        "fato_biometria_tentativa.dt_evento": {
+			          "Target": {
+			            "Entity": "fato_biometria_tentativa.dt_evento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_biometria_tentativa"
+			            },
+			            "Object": {
+			              "Role": "fato_biometria_tentativa.dt_evento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_biometria_tentativas_have_dt_eventos"
+			        }
+			      ]
+			    },
+			    "dim_motorista_has_id_device": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_motoristas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_motorista": {
+			          "Target": {
+			            "Entity": "dim_motorista"
+			          }
+			        },
+			        "dim_motorista.id_device": {
+			          "Target": {
+			            "Entity": "dim_motorista.id_device"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motorista"
+			            },
+			            "Object": {
+			              "Role": "dim_motorista.id_device"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_motoristas_have_id_devices"
+			        }
+			      ]
+			    },
+			    "dim_motorista_has_dt_registro": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_motoristas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_motorista": {
+			          "Target": {
+			            "Entity": "dim_motorista"
+			          }
+			        },
+			        "dim_motorista.dt_registro": {
+			          "Target": {
+			            "Entity": "dim_motorista.dt_registro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motorista"
+			            },
+			            "Object": {
+			              "Role": "dim_motorista.dt_registro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_motoristas_have_dt_registros"
+			        }
+			      ]
+			    },
+			    "dim_motorista_has_modal": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_motoristas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_motorista": {
+			          "Target": {
+			            "Entity": "dim_motorista"
+			          }
+			        },
+			        "dim_motorista.modal": {
+			          "Target": {
+			            "Entity": "dim_motorista.modal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motorista"
+			            },
+			            "Object": {
+			              "Role": "dim_motorista.modal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_motoristas_have_modals"
+			        }
+			      ]
+			    },
+			    "dim_motorista_has_categoria": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_motoristas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_motorista": {
+			          "Target": {
+			            "Entity": "dim_motorista"
+			          }
+			        },
+			        "dim_motorista.categoria": {
+			          "Target": {
+			            "Entity": "dim_motorista.categoria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motorista"
+			            },
+			            "Object": {
+			              "Role": "dim_motorista.categoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_motoristas_have_categorias"
+			        }
+			      ]
+			    },
+			    "dim_motorista_has_id_motorista": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_motoristas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_motorista": {
+			          "Target": {
+			            "Entity": "dim_motorista"
+			          }
+			        },
+			        "dim_motorista.id_motorista": {
+			          "Target": {
+			            "Entity": "dim_motorista.id_motorista"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motorista"
+			            },
+			            "Object": {
+			              "Role": "dim_motorista.id_motorista"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_motoristas_have_id_motoristas"
+			        }
+			      ]
+			    },
+			    "dim_biometria_has_flg_necessario_acao": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_biometria"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_biometria": {
+			          "Target": {
+			            "Entity": "dim_biometria"
+			          }
+			        },
+			        "dim_biometria.flg_necessario_acao": {
+			          "Target": {
+			            "Entity": "dim_biometria.flg_necessario_acao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_biometria"
+			            },
+			            "Object": {
+			              "Role": "dim_biometria.flg_necessario_acao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_biometrias_have_flg_necessario_acaos"
+			        }
+			      ]
+			    },
+			    "dim_biometria_has_acao": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_biometria"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_biometria": {
+			          "Target": {
+			            "Entity": "dim_biometria"
+			          }
+			        },
+			        "dim_biometria.acao": {
+			          "Target": {
+			            "Entity": "dim_biometria.acao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_biometria"
+			            },
+			            "Object": {
+			              "Role": "dim_biometria.acao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_biometrias_have_acaos"
+			        }
+			      ]
+			    },
+			    "dim_biometria_has_id_motorista": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_biometria"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_biometria": {
+			          "Target": {
+			            "Entity": "dim_biometria"
+			          }
+			        },
+			        "dim_biometria.id_motorista": {
+			          "Target": {
+			            "Entity": "dim_biometria.id_motorista"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_biometria"
+			            },
+			            "Object": {
+			              "Role": "dim_biometria.id_motorista"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_biometrias_have_id_motoristas"
+			        }
+			      ]
+			    },
+			    "dim_biometria_has_status": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_biometria"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_biometria": {
+			          "Target": {
+			            "Entity": "dim_biometria"
+			          }
+			        },
+			        "dim_biometria.status": {
+			          "Target": {
+			            "Entity": "dim_biometria.status"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_biometria"
+			            },
+			            "Object": {
+			              "Role": "dim_biometria.status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_biometrias_have_statuses"
+			        }
+			      ]
+			    },
+			    "dim_biometria_has_dt_evento": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_biometria"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_biometria": {
+			          "Target": {
+			            "Entity": "dim_biometria"
+			          }
+			        },
+			        "dim_biometria.dt_evento": {
+			          "Target": {
+			            "Entity": "dim_biometria.dt_evento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_biometria"
+			            },
+			            "Object": {
+			              "Role": "dim_biometria.dt_evento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_biometrias_have_dt_eventos"
+			        }
+			      ]
+			    },
+			    "dim_biometria_has_id_sessao": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_biometria"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_biometria": {
+			          "Target": {
+			            "Entity": "dim_biometria"
+			          }
+			        },
+			        "dim_biometria.id_sessao": {
+			          "Target": {
+			            "Entity": "dim_biometria.id_sessao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_biometria"
+			            },
+			            "Object": {
+			              "Role": "dim_biometria.id_sessao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_biometrias_have_id_sessaos"
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

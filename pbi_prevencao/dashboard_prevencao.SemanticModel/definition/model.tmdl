@@ -1,0 +1,30 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-BR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["dim_biometria","dim_motoristas","fato_biometria_tentativas","fato_ordens_servico"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.141.1754.0 (25.03)+e4409ed908ce97a5e9747f7dc48da475cf1c71a2
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table dim_biometria
+ref table DateTableTemplate_7ca4ef9e-b2ef-44ad-91be-ab0c71cbdedb
+ref table LocalDateTable_38a7a38f-3c8f-4529-a256-0deaf69a9663
+ref table dim_motoristas
+ref table LocalDateTable_69e126e2-11e7-448d-8534-9c3113b8b06b
+ref table fato_biometria_tentativas
+ref table fato_ordens_servico
+ref table #medidas
+ref table LocalDateTable_f3362fa1-d129-4524-a2c8-fea24ce23d3b
+ref table LocalDateTable_1d04f7ce-9ea5-4319-b8df-445adc7952ce
+ref table fato_motorista_cancelado
+
+ref cultureInfo pt-BR
+

@@ -21,6 +21,7 @@ Este repositório contém todos os códigos e recursos utilizados para a anális
 - **Notebook**: Jupyter
 - **Bibliotecas Principais**: Pandas, NumPy, Matplotlib, Seaborn, Boto3, PyArrow
 - **CLI & Deploy**: Databricks CLI
+- **DataViz**: PowerBI
 
 ## 🛠 Arquitetura do projeto
 

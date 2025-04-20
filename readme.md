@@ -1,15 +1,28 @@
 # PROJETO DE ANÁLISE SOBRE BIOMETRIA FACIAL
 
+> ⚠️ **Este é um projeto pessoal** – um case de uso desenvolvido para demonstrar minhas habilidades em análise de dados e pipelines de biometria facial.  
+> Não se trata de um sistema em produção.
+
 Este repositório contém todos os códigos e recursos utilizados para a análise de efetividade e falhas no processo de biometria facial de entregadores, com foco em prevenção a fraudes.
 
-## Estrutura de pastas
+## 📂Estrutura de pastas
 ```
 ├── consultas/                # Notebooks de análises exploratórias
 ├── pipelines/                # Notebooks de pipelines Bronze/Silver/Gold
 ├── .gitignore                # Arquivos e pastas ignorados pelo Git
 └── readme.md                 # Documentação do projeto
 ```
-## Arquitetura do projeto
+
+## 🧰 Tech Stack
+
+- **Data Lake & Pipelines**: Databricks, Delta Lake
+- **Armazenamento**: AWS S3
+- **Linguagem**: Python 3.8+
+- **Notebook**: Jupyter
+- **Bibliotecas Principais**: Pandas, NumPy, Matplotlib, Seaborn, Boto3, PyArrow
+- **CLI & Deploy**: Databricks CLI
+
+## 🛠 Arquitetura do projeto
 
 ### 1. Ingestão de Dados (Raw)
 - Dados brutos coletados via PowerShell para S3 (pasta `raw`).

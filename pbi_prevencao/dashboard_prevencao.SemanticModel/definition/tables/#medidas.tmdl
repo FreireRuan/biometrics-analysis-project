@@ -64,8 +64,8 @@ table #medidas
 			VAR n = [qtd_execucoes]
 			VAR p = DIVIDE(x, n, 0)
 			VAR z = 1.96
-			VAR D = 1 + z * z / n
-			VAR centre = (p + z*z / (2*n)) / D
+			VAR D = 1 + (z * z) / n
+			VAR centre = (p + (z*z) / (2*n)) / D
 			VAR half = ( z * SQRT( (p*(1-p)/n) + (z*z / (4*n*n)) ) ) / D
 			return
 			    centre - half
@@ -95,8 +95,8 @@ table #medidas
 			    calculate(
 			        [qtd_execucoes],
 			        filter(
-			            fato_biometria_tentativas,
-			            fato_biometria_tentativas[status] = "nao combina"
+			            dim_biometria,
+			            dim_biometria[status] = "nao combina"
 			        )
 			    ) + 0
 			```

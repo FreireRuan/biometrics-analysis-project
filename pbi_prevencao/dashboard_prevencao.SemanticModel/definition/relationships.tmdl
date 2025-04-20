@@ -1,0 +1,38 @@
+relationship afa54a1a-bd5d-47c7-a4e6-b6b238955a5e
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dim_biometria.dt_evento
+	toColumn: LocalDateTable_38a7a38f-3c8f-4529-a256-0deaf69a9663.Date
+
+relationship b2904768-e33e-4f44-8ae5-3d679529f732
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dim_motoristas.dt_registro
+	toColumn: LocalDateTable_69e126e2-11e7-448d-8534-9c3113b8b06b.Date
+
+relationship AutoDetected_f43cb70c-57fe-4d7b-917d-e7250a3a07fc
+	fromColumn: fato_biometria_tentativas.id_sessao
+	toColumn: dim_biometria.id_sessao
+
+relationship 4e9d5f6d-61c4-383b-6243-69b40cb0aed7
+	fromColumn: fato_ordens_servico.id_motorista
+	toColumn: dim_motoristas.id_motorista
+
+relationship ef9ec5e8-5cdd-42e0-a83c-ef3feb0fced7
+	joinOnDateBehavior: datePartOnly
+	fromColumn: fato_ordens_servico.dt_ordem
+	toColumn: LocalDateTable_f3362fa1-d129-4524-a2c8-fea24ce23d3b.Date
+
+relationship 48fd83af-78eb-4d10-96c4-3465a31130b0
+	joinOnDateBehavior: datePartOnly
+	fromColumn: fato_biometria_tentativas.dt_evento
+	toColumn: LocalDateTable_1d04f7ce-9ea5-4319-b8df-445adc7952ce.Date
+
+relationship 0b2e35ef-4668-6dae-a1e6-f89ff2deb680
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: dim_biometria.id_motorista
+	toColumn: dim_motoristas.id_motorista
+
+relationship 17303693-14e0-fddf-b553-c23832bd1fe2
+	fromColumn: fato_motorista_cancelado.id_motorista
+	toColumn: dim_biometria.id_motorista
+

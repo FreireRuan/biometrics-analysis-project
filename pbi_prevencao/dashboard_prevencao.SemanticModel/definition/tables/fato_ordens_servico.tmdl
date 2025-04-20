@@ -1,0 +1,68 @@
+table fato_ordens_servico
+	lineageTag: 6e9439b2-7d03-4c5f-b30a-0d400a0dff96
+
+	column dt_ordem
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 632b9dd7-d591-4235-a75d-6ab46252e6dc
+		summarizeBy: none
+		sourceColumn: dt_ordem
+
+		variation Variation
+			isDefault
+			relationship: ef9ec5e8-5cdd-42e0-a83c-ef3feb0fced7
+			defaultHierarchy: LocalDateTable_f3362fa1-d129-4524-a2c8-fea24ce23d3b.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column id_ordem
+		dataType: int64
+		formatString: 0
+		lineageTag: b3528e3d-5428-42f4-b09f-45648fd5a0ea
+		summarizeBy: sum
+		sourceColumn: id_ordem
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_motorista
+		dataType: int64
+		formatString: 0
+		lineageTag: 25659579-6d7c-4b8d-b005-d73dd1896607
+		summarizeBy: none
+		sourceColumn: id_motorista
+
+		annotation SummarizationSetBy = Automatic
+
+	column vlr_ordem
+		dataType: double
+		lineageTag: 9b2b2046-d2ef-4c1f-ba56-d21efc75d941
+		summarizeBy: sum
+		sourceColumn: vlr_ordem
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column status_ordem
+		dataType: string
+		lineageTag: 070fb8cd-f853-4662-9543-53175bb497be
+		summarizeBy: none
+		sourceColumn: status_ordem
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fato_ordens_servico = m
+		mode: import
+		source =
+				let
+				    Fonte = DatabricksMultiCloud.Catalogs("dbc-2e283651-5789.cloud.databricks.com", "sql/protocolv1/o/1354962499045176/0419-050741-l5d9yxq8", [Catalog=null, Database=null, EnableAutomaticProxyDiscovery=null]),
+				    hive_metastore_Database = Fonte{[Name="hive_metastore",Kind="Database"]}[Data],
+				    gold_Schema = hive_metastore_Database{[Name="gold",Kind="Schema"]}[Data],
+				    fato_ordens_servico_Table = gold_Schema{[Name="fato_ordens_servico",Kind="Table"]}[Data]
+				in
+				    fato_ordens_servico_Table
+
+	annotation PBI_ResultType = Table
+

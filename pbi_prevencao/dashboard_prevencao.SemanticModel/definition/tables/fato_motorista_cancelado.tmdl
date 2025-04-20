@@ -1,0 +1,41 @@
+table fato_motorista_cancelado
+	lineageTag: 6459881f-1a2d-44e6-87a6-3cc5673b94af
+
+	column qtd_cancelado
+		formatString: 0
+		lineageTag: e48625e9-55d0-4d57-a99e-eadeabe8151d
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [qtd_cancelado]
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_motorista
+		formatString: 0
+		lineageTag: f549ab1a-4b98-4461-8101-d8d50e928869
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: fato_ordens_servico[id_motorista]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fato_motorista_cancelado = calculated
+		mode: import
+		source = ```
+				
+				    summarize(
+				        fato_ordens_servico,
+				        fato_ordens_servico[id_motorista],
+				        "qtd_cancelado",
+				        calculate(
+				            count(fato_ordens_servico[id_motorista]), 
+				            filter(
+				                fato_ordens_servico, 
+				                fato_ordens_servico[status_ordem] = "cancelado"
+				            )
+				        )
+				    )
+				```
+
+	annotation PBI_Id = 120d1e0d8d044a228310cd7badedfbd9
+

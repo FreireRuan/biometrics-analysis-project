@@ -1,0 +1,711 @@
+{
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.62\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":0,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "34c27268-f665-4711-85a4-f869b63942177313794215.png",
+            "path": "34c27268-f665-4711-85a4-f869b63942177313794215.png",
+            "type": 100
+          },
+          {
+            "name": "ifood04792776285647227.png",
+            "path": "ifood04792776285647227.png",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}},\"url\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}}}]}}",
+      "displayName": "Match com threshold 90%",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "0ba627d97c7d69bd7d8f",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"01e5655bc0871895cbb5\",\"layouts\":[{\"id\":0,\"position\":{\"height\":164.9074074074074,\"width\":504.2037186742118,\"x\":140.69320937752627,\"y\":0,\"z\":1000,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"#medidas.qtd_threshold_maior_90\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"#\",\"Entity\":\"#medidas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"qtd_threshold_maior_90\"},\"Name\":\"#medidas.qtd_threshold_maior_90\",\"NativeReferenceName\":\"qtd_threshold_maior_90\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"qtd_threshold_maior_90\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"legend\":[{\"properties\":{\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'TopCenter'\"}}},\"showGradientLegend\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"enableDetailDataLabel\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#B4161B'\"}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Serviços com mais falhas'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"167ad83d4bfc0e2a88b9\"}",
+          "filters": "[]",
+          "height": 164.91,
+          "width": 504.20,
+          "x": 140.69,
+          "y": 0.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"083a7e25b8ec051c1fcf\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":1280,\"height\":100,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'tabRoundTopCorners'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"180L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EA1D2C'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"dd902590d0cff2acb1f3\",\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 100.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"167ad83d4bfc0e2a88b9\",\"layouts\":[{\"id\":0,\"position\":{\"height\":455,\"width\":787.5,\"x\":0,\"y\":0,\"z\":0,\"tabOrder\":1000}}],\"singleVisualGroup\":{\"displayName\":\"Grupo 1\",\"groupMode\":0},\"parentGroupName\":\"23e9c441b1115787f7cf\"}",
+          "height": 455.00,
+          "width": 787.50,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"1db450a549ffef916c73\",\"layouts\":[{\"id\":0,\"position\":{\"height\":85,\"width\":140.25547445255475,\"x\":280.51094890510956,\"y\":2.5,\"z\":11000,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Quantidade de total de execuções\"}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"9e9a3613ea1de8e38bdd\"}",
+          "filters": "[]",
+          "height": 85.00,
+          "width": 140.26,
+          "x": 280.51,
+          "y": 2.50,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"23e9c441b1115787f7cf\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":148.37500000000267,\"z\":0,\"width\":787.5,\"height\":532.5048638138117,\"tabOrder\":3000}}],\"singleVisualGroup\":{\"displayName\":\"Grupo 3\",\"groupMode\":0}}",
+          "height": 532.50,
+          "width": 787.50,
+          "x": 0.00,
+          "y": 148.38,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"2ead5afacfcdaf61998a\",\"layouts\":[{\"id\":0,\"position\":{\"height\":45,\"width\":161.25,\"x\":0,\"y\":76.25,\"z\":3000,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Redução absoluta de execuções\"}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"f19a9f9db29347edbba7\"}",
+          "filters": "[]",
+          "height": 45.00,
+          "width": 161.25,
+          "x": 0.00,
+          "y": 76.25,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"42422e67cab7a0373e39\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":15,\"z\":7000,\"width\":937.5,\"height\":68.75,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Análise de Efetividade e Falhas na Biometria Facial\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"28pt\",\"color\":\"#ffffff\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"dd902590d0cff2acb1f3\"}",
+          "filters": "[]",
+          "height": 68.75,
+          "width": 937.50,
+          "x": 0.00,
+          "y": 15.00,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"424da317249055ede3ca\",\"layouts\":[{\"id\":0,\"position\":{\"height\":331.0185185185185,\"width\":505.90137429264354,\"x\":0,\"y\":122.77777777777777,\"z\":2000,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"#medidas.qtd_execucoes_combinadas\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"#\",\"Entity\":\"#medidas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"qtd_execucoes_combinadas\"},\"Name\":\"#medidas.qtd_execucoes_combinadas\",\"NativeReferenceName\":\"qtd_execucoes_combinadas\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"qtd_execucoes_combinadas\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"legend\":[{\"properties\":{\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'TopCenter'\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"enableDetailDataLabel\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#28A745'\"}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Serviços com mais falhas'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"167ad83d4bfc0e2a88b9\"}",
+          "filters": "[]",
+          "height": 331.02,
+          "width": 505.90,
+          "x": 0.00,
+          "y": 122.78,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"42f4e5a3f8ac41f749ff\",\"layouts\":[{\"id\":0,\"position\":{\"x\":161.25,\"y\":65,\"z\":2000,\"width\":95,\"height\":62.5,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"#medidas.tx_reducao_total\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"#\",\"Entity\":\"#medidas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"tx_reducao_total\"},\"Name\":\"#medidas.tx_reducao_total\",\"NativeReferenceName\":\"tx_reducao_total\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"tx_reducao_total\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#B4161B'\"}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"f19a9f9db29347edbba7\"}",
+          "filters": "[]",
+          "height": 62.50,
+          "width": 95.00,
+          "x": 161.25,
+          "y": 65.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"4a95ad29977c6586215a\",\"layouts\":[{\"id\":0,\"position\":{\"height\":349.296875,\"width\":290,\"x\":172.5,\"y\":98.57812499999733,\"z\":9501,\"tabOrder\":0}}],\"singleVisualGroup\":{\"displayName\":\"Grupo 5\",\"groupMode\":0},\"parentGroupName\":\"23e9c441b1115787f7cf\"}",
+          "height": 349.30,
+          "width": 290.00,
+          "x": 172.50,
+          "y": 98.58,
+          "z": 9501.00
+        },
+        {
+          "config": "{\"name\":\"4b5acf3da0bc77b7cfad\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1080,\"y\":0,\"z\":2000,\"width\":200,\"height\":100,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"ifood04792776285647227.png\"}}}}}],\"imageScaling\":[{\"properties\":{\"imageScalingType\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}}]}},\"parentGroupName\":\"dd902590d0cff2acb1f3\",\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 100.00,
+          "width": 200.00,
+          "x": 1080.00,
+          "y": 0.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"64330e17570a67f03143\",\"layouts\":[{\"id\":0,\"position\":{\"height\":62.5,\"width\":95,\"x\":161.25,\"y\":0,\"z\":1000,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"#medidas.tx_reducao_cenario_inicial\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"#\",\"Entity\":\"#medidas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"tx_reducao_cenario_inicial\"},\"Name\":\"#medidas.tx_reducao_cenario_inicial\",\"NativeReferenceName\":\"tx_reducao_cenario_inicial\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"tx_reducao_cenario_inicial\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#B4161B'\"}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"f19a9f9db29347edbba7\"}",
+          "filters": "[]",
+          "height": 62.50,
+          "width": 95.00,
+          "x": 161.25,
+          "y": 0.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"6dbc3ce04cfd2f740246\",\"layouts\":[{\"id\":0,\"position\":{\"height\":454.99999999999994,\"width\":506.7502021018593,\"x\":280.7497978981406,\"y\":0,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"#medidas.qtd_execucoes\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"#\",\"Entity\":\"#medidas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"qtd_execucoes\"},\"Name\":\"#medidas.qtd_execucoes\",\"NativeReferenceName\":\"qtd_execucoes\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"qtd_execucoes\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"legend\":[{\"properties\":{\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'TopCenter'\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"enableDetailDataLabel\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#252423'\"}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Serviços com mais falhas'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"167ad83d4bfc0e2a88b9\"}",
+          "filters": "[]",
+          "height": 455.00,
+          "width": 506.75,
+          "x": 280.75,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"793e63aede1c63738598\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":680,\"z\":1000,\"width\":1280,\"height\":40,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'tabRoundTopCorners'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EA1D2C'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 40.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 680.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"7ced13a5f35db0aae9a9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":937.5,\"y\":258.75,\"z\":3000,\"width\":311.25,\"height\":322.5,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Análise: \",\"textStyle\":{\"fontWeight\":\"bold\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Ao aumentar o threshold de similaridade da biometria facial para acima de 90%, a efetividade do sistema diminui consideravelmente;\"}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Ao elevar o threshold para 90%, essa taxa de sucesso cai para 56,4%. Isso representa uma redução relativa de 28,9% em relação ao cenário atual.\"}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Considerando o total das execuções (546), a mudança do threshold significaria uma queda absoluta na efetividade de 22,9%.\"}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"A análise indica que um threshold acima de 90% tornaria o sistema significativamente mais rigoroso, aumentando os casos rejeitados e, possivelmente, gerando mais falsos negativos.\"}],\"listType\":\"bullet\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"preset\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}},\"angle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"shadowDistance\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"shadowBlur\":{\"expr\":{\"Literal\":{\"Value\":\"20L\"}}},\"shadowSpread\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70L\"}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'Outer'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 322.50,
+          "width": 311.25,
+          "x": 937.50,
+          "y": 258.75,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"9e9a3613ea1de8e38bdd\",\"layouts\":[{\"id\":0,\"position\":{\"height\":87.5,\"width\":420.7664233576643,\"x\":178.75,\"y\":445.00486381381165,\"z\":9001,\"tabOrder\":2000}}],\"singleVisualGroup\":{\"displayName\":\"Grupo 4\",\"groupMode\":0},\"parentGroupName\":\"23e9c441b1115787f7cf\"}",
+          "height": 87.50,
+          "width": 420.77,
+          "x": 178.75,
+          "y": 445.00,
+          "z": 9001.00
+        },
+        {
+          "config": "{\"name\":\"ada372cfc8db0bbde381\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":285.546875,\"z\":8000,\"width\":152.5,\"height\":63.75,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"#medidas.tx_similaridade_menor_90\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"#\",\"Entity\":\"#medidas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"tx_similaridade_combina\"},\"Name\":\"#medidas.tx_similaridade_menor_90\",\"NativeReferenceName\":\"% do total de execuções\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"tx_similaridade_combina\"}}}]},\"columnProperties\":{\"#medidas.tx_similaridade_menor_90\":{\"displayName\":\"% do total de execuções\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"9D\"}}}}}],\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"4a95ad29977c6586215a\"}",
+          "filters": "[]",
+          "height": 63.75,
+          "width": 152.50,
+          "x": 0.00,
+          "y": 285.55,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"c9424e2ee9e1395391c0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":145,\"y\":0,\"z\":7000,\"width\":145,\"height\":61.25,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"#medidas.tx_similaridade_maior_90\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"#\",\"Entity\":\"#medidas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"tx_similaridade_maior_90\"},\"Name\":\"#medidas.tx_similaridade_maior_90\",\"NativeReferenceName\":\"% do total de execuções\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"tx_similaridade_maior_90\"}}}]},\"columnProperties\":{\"#medidas.tx_similaridade_maior_90\":{\"displayName\":\"% do total de execuções\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"9D\"}}}}}],\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"4a95ad29977c6586215a\"}",
+          "filters": "[]",
+          "height": 61.25,
+          "width": 145.00,
+          "x": 145.00,
+          "y": 0.00,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"d00465e116b1a1648ab6\",\"layouts\":[{\"id\":0,\"position\":{\"height\":85,\"width\":140.25547445255475,\"x\":0,\"y\":2.5,\"z\":9000,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Quant. de execuções que combinam no threshold atual\"}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"9e9a3613ea1de8e38bdd\"}",
+          "filters": "[]",
+          "height": 85.00,
+          "width": 140.26,
+          "x": 0.00,
+          "y": 2.50,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"da39499a377d1f93221f\",\"layouts\":[{\"id\":0,\"position\":{\"height\":87.5,\"width\":140.81125827814571,\"x\":139.93570841591335,\"y\":0,\"z\":10000,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Quant. de execuções que combinam com \"},{\"value\":\"threshold \",\"textStyle\":{\"fontSize\":\"13.3333px\"}},{\"value\":\"acima de 90%\"}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"9e9a3613ea1de8e38bdd\"}",
+          "filters": "[]",
+          "height": 87.50,
+          "width": 140.81,
+          "x": 139.94,
+          "y": 0.00,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"dd902590d0cff2acb1f3\",\"layouts\":[{\"id\":0,\"position\":{\"height\":100,\"width\":1280,\"x\":0,\"y\":0,\"z\":5000,\"tabOrder\":5000}}],\"singleVisualGroup\":{\"displayName\":\"Grupo 1\",\"groupMode\":0}}",
+          "height": 100.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"e111d265ca270c96b04b\",\"layouts\":[{\"id\":0,\"position\":{\"height\":53.75,\"width\":161.25,\"x\":0,\"y\":11.25,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Redução do threshould atual\"}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"f19a9f9db29347edbba7\"}",
+          "filters": "[]",
+          "height": 53.75,
+          "width": 161.25,
+          "x": 0.00,
+          "y": 11.25,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"e6fc4823248afae08b67\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":96.25,\"z\":2000,\"width\":1280,\"height\":85,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Como ficaria o índice geral de match com \",\"textStyle\":{\"fontSize\":\"28pt\"}},{\"value\":\"threshold\",\"textStyle\":{\"fontStyle\":\"italic\",\"fontSize\":\"28pt\"}},{\"value\":\" maior que 90?\",\"textStyle\":{\"fontSize\":\"28pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 85.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 96.25,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"f19a9f9db29347edbba7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":611.25,\"y\":308.75,\"z\":4000,\"width\":256.25,\"height\":127.5,\"tabOrder\":4000}}],\"singleVisualGroup\":{\"displayName\":\"Grupo 2\",\"groupMode\":0}}",
+          "height": 127.50,
+          "width": 256.25,
+          "x": 611.25,
+          "y": 308.75,
+          "z": 4000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}},\"url\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}}}]}}",
+      "displayName": "Categoria sem combinação",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "1761315824666a5a0c8f",
+      "ordinal": 3,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0547080c3a78418e3d3d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":103.75,\"z\":2000,\"width\":1280,\"height\":85,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Categoria com maior índice de sem combinação\",\"textStyle\":{\"fontSize\":\"28pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 85.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 103.75,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"12d6ebb6834ebb3a2872\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":167.5,\"z\":1000,\"width\":937.5,\"height\":341.25,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"lineStackedColumnComboChart\",\"projections\":{\"Y\":[{\"queryRef\":\"#medidas.qtd_tentativas\"},{\"queryRef\":\"#medidas.nao_combina\"}],\"Y2\":[{\"queryRef\":\"#medidas.tx_tentativas_nao_combina\"}],\"Category\":[{\"queryRef\":\"dim_motoristas.nvl_categoria\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"#\",\"Entity\":\"#medidas\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"dim_motoristas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"qtd_execucoes\"},\"Name\":\"#medidas.qtd_tentativas\",\"NativeReferenceName\":\"Quantidade de execuções\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"qtd_execucoes_nao_combina\"},\"Name\":\"#medidas.nao_combina\",\"NativeReferenceName\":\"Quantidade de execuções sem combinações\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"tx_execucoes_nao_combina\"},\"Name\":\"#medidas.tx_tentativas_nao_combina\",\"NativeReferenceName\":\"Taxa de execuções sem combinações\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"nvl_categoria\"},\"Name\":\"dim_motoristas.nvl_categoria\",\"NativeReferenceName\":\"Nível/Categoria\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"nvl_categoria\"}}}]},\"columnProperties\":{\"#medidas.qtd_tentativas\":{\"displayName\":\"Quantidade de execuções\"},\"#medidas.nao_combina\":{\"displayName\":\"Quantidade de execuções sem combinações\"},\"#medidas.tx_tentativas_nao_combina\":{\"displayName\":\"Taxa de execuções sem combinações\"},\"dim_motoristas.nvl_categoria\":{\"displayName\":\"Nível/Categoria\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"legend\":[{\"properties\":{\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'TopCenter'\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#cccccc'\"}}}}}},\"selector\":{\"metadata\":\"#medidas.qtd_tentativas\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#B4161B'\"}}}}}},\"selector\":{\"metadata\":\"#medidas.nao_combina\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EA1D2C'\"}}}}}},\"selector\":{\"metadata\":\"#medidas.tx_tentativas_nao_combina\"}}],\"lineStyles\":[{\"properties\":{\"strokeWidth\":{\"expr\":{\"Literal\":{\"Value\":\"0.5D\"}}},\"showMarker\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"enableDetailDataLabel\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Serviços com mais falhas'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[{\"name\":\"26a5b7542a7c1eb72554\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"#medidas\"}},\"Property\":\"qtd_execucoes_nao_combina\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"#\",\"Entity\":\"#medidas\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":1,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"qtd_execucoes_nao_combina\"}},\"Right\":{\"Literal\":{\"Value\":\"0L\"}}}}}]},\"type\":\"Advanced\",\"howCreated\":0,\"isHiddenInViewMode\":false,\"isLockedInViewMode\":true}]",
+          "height": 341.25,
+          "width": 937.50,
+          "x": 0.00,
+          "y": 167.50,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"21cc24d6b6de4cd5739f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":958.75,\"y\":245,\"z\":4000,\"width\":311.25,\"height\":263.75,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Análise: \",\"textStyle\":{\"fontWeight\":\"bold\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Categorias de menor “nível” (bronze e prata) \",\"textStyle\":{\"fontWeight\":\"bold\"}},{\"value\":\"apresentam as maiores taxas de não reconhecimento, sugerindo maior índice de falha ou menor qualidade das capturas nesses perfis;\"}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Entregadores de alto nível (ouro e diamante)\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"inherit\",\"fontSize\":\"inherit\"}},{\"value\":\" têm desempenho muito superior, com taxas de falha abaixo de 5%.\",\"textStyle\":{\"fontFamily\":\"inherit\",\"fontSize\":\"inherit\"}}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"A diferença marcada nas taxas indica que pode haver reforço de captura de imagem ou \"},{\"value\":\"ajuste de \",\"textStyle\":{\"fontWeight\":\"bold\"}},{\"value\":\"thresholds\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontStyle\":\"italic\"}},{\"value\":\" \",\"textStyle\":{\"fontStyle\":\"italic\"}},{\"value\":\"especificamente para os perfis com maior índice de falhas.\"}],\"listType\":\"bullet\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"preset\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 263.75,
+          "width": 311.25,
+          "x": 958.75,
+          "y": 245.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"294e4e59ff06c3f9f84e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1080,\"y\":0,\"z\":2000,\"width\":200,\"height\":100,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"ifood04792776285647227.png\"}}}}}],\"imageScaling\":[{\"properties\":{\"imageScalingType\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}}]}},\"parentGroupName\":\"2d63ae28ef26fb552a45\",\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 100.00,
+          "width": 200.00,
+          "x": 1080.00,
+          "y": 0.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"2d63ae28ef26fb552a45\",\"layouts\":[{\"id\":0,\"position\":{\"height\":100,\"width\":1280,\"x\":0,\"y\":0,\"z\":5000,\"tabOrder\":7001}}],\"singleVisualGroup\":{\"displayName\":\"Grupo 1\",\"groupMode\":0}}",
+          "height": 100.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"68cc417e8b04d957f4c1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":680,\"z\":0,\"width\":1280,\"height\":40,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'tabRoundTopCorners'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EA1D2C'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 40.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 680.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"9a307ad2401b1470d0ca\",\"layouts\":[{\"id\":0,\"position\":{\"x\":17.5,\"y\":508.75,\"z\":3000,\"width\":920,\"height\":181.25,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"dim_motoristas.nvl_categoria\"},{\"queryRef\":\"#medidas.qtd_tentativas_nao_combina\"},{\"queryRef\":\"#medidas.qtd_tentativas\"},{\"queryRef\":\"#medidas.tx_tentativas_nao_combina\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"#\",\"Entity\":\"#medidas\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"dim_motoristas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"qtd_execucoes\"},\"Name\":\"#medidas.qtd_tentativas\",\"NativeReferenceName\":\"Quantidade execuções\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"qtd_execucoes_nao_combina\"},\"Name\":\"#medidas.qtd_tentativas_nao_combina\",\"NativeReferenceName\":\"Quantidade execuções sem combinações\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"tx_execucoes_nao_combina\"},\"Name\":\"#medidas.tx_tentativas_nao_combina\",\"NativeReferenceName\":\"Taxa de execuções sem combinações\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"nvl_categoria\"},\"Name\":\"dim_motoristas.nvl_categoria\",\"NativeReferenceName\":\"Nível/Categoria\"}]},\"columnProperties\":{\"#medidas.tx_tentativas\":{\"displayName\":\"Taxa de falhas\"},\"#medidas.qtd_tentativas\":{\"displayName\":\"Quantidade execuções\"},\"#medidas.qtd_tentativas_nao_combina\":{\"displayName\":\"Quantidade execuções sem combinações\"},\"#medidas.tx_tentativas_nao_combina\":{\"displayName\":\"Taxa de execuções sem combinações\"},\"dim_motoristas.nvl_categoria\":{\"displayName\":\"Nível/Categoria\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"grid\":[{\"properties\":{\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#cccccc'\"}}}}}}}],\"columnHeaders\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"150.64774911681653D\"}}}},\"selector\":{\"metadata\":\"#medidas.qtd_tentativas\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"300.0000270207637D\"}}}},\"selector\":{\"metadata\":\"#medidas.tx_tentativas_nao_combina\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"340.8980990724855D\"}}}},\"selector\":{\"metadata\":\"#medidas.qtd_tentativas_nao_combina\"}}],\"columnFormatting\":[{\"properties\":{\"styleTotal\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"styleHeader\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}},\"selector\":{\"metadata\":\"#medidas.qtd_tentativas\"}},{\"properties\":{\"styleTotal\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"styleHeader\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}},\"selector\":{\"metadata\":\"#medidas.qtd_tentativas_nao_combina\"}},{\"properties\":{\"styleTotal\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"styleHeader\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}},\"selector\":{\"metadata\":\"#medidas.tx_tentativas_nao_combina\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Serviços com mais falhas'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[{\"name\":\"268a9808385319ad397f\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"#medidas\"}},\"Property\":\"qtd_execucoes_nao_combina\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"#\",\"Entity\":\"#medidas\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":1,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"qtd_execucoes_nao_combina\"}},\"Right\":{\"Literal\":{\"Value\":\"0L\"}}}}}]},\"type\":\"Advanced\",\"howCreated\":0,\"isHiddenInViewMode\":false,\"isLockedInViewMode\":true}]",
+          "height": 181.25,
+          "width": 920.00,
+          "x": 17.50,
+          "y": 508.75,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"aaa34550ffbd7579a417\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":15,\"z\":7000,\"width\":937.5,\"height\":68.75,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Análise de Efetividade e Falhas na Biometria Facial\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"28pt\",\"color\":\"#ffffff\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"2d63ae28ef26fb552a45\"}",
+          "filters": "[]",
+          "height": 68.75,
+          "width": 937.50,
+          "x": 0.00,
+          "y": 15.00,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"fa7a1bcfa7ce388de398\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":1280,\"height\":100,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'tabRoundTopCorners'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"180L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EA1D2C'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"2d63ae28ef26fb552a45\",\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 100.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'34c27268-f665-4711-85a4-f869b6d99a7c.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"34c27268-f665-4711-85a4-f869b63942177313794215.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"outspace\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}},\"url\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}}}]}}",
+      "displayName": "Abertura",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "225eb3e0d7d7d04683b4",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"57be6bb19339e44be22d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":2001,\"width\":1280,\"height\":100,\"tabOrder\":1000}}],\"singleVisualGroup\":{\"displayName\":\"Grupo 1\",\"groupMode\":0}}",
+          "height": 100.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 2001.00
+        },
+        {
+          "config": "{\"name\":\"70e9ab2f530954c7d3b9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":680,\"z\":3001,\"width\":1280,\"height\":40,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'tabRoundTopCorners'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EA1D2C'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 40.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 680.00,
+          "z": 3001.00
+        },
+        {
+          "config": "{\"name\":\"84500b9c18d3023da675\",\"layouts\":[{\"id\":0,\"position\":{\"height\":68.75,\"width\":937.5,\"x\":0,\"y\":15,\"z\":3000,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Análise de Efetividade e Falhas na Biometria Facial\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"28pt\",\"color\":\"#ffffff\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"57be6bb19339e44be22d\"}",
+          "filters": "[]",
+          "height": 68.75,
+          "width": 937.50,
+          "x": 0.00,
+          "y": 15.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"9435c36cada459ecae49\",\"layouts\":[{\"id\":0,\"position\":{\"height\":100,\"width\":1280,\"x\":0,\"y\":0,\"z\":1000,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'tabRoundTopCorners'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"180L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EA1D2C'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"57be6bb19339e44be22d\",\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 100.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}},\"url\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}}}]}}",
+      "displayName": "Relação pedido com biometria",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "693ebac645c6e030ce73",
+      "ordinal": 4,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"18524cbbfdf420abf503\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":15,\"z\":7000,\"width\":937.5,\"height\":68.75,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Análise de Efetividade e Falhas na Biometria Facial\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"28pt\",\"color\":\"#ffffff\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"9147818c20f0db73b017\"}",
+          "filters": "[]",
+          "height": 68.75,
+          "width": 937.50,
+          "x": 0.00,
+          "y": 15.00,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"44ffeb488875eef2e6ae\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1080,\"y\":0,\"z\":2000,\"width\":200,\"height\":100,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"ifood04792776285647227.png\"}}}}}],\"imageScaling\":[{\"properties\":{\"imageScalingType\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}}]}},\"parentGroupName\":\"9147818c20f0db73b017\",\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 100.00,
+          "width": 200.00,
+          "x": 1080.00,
+          "y": 0.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"4fe118b186350f083f75\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":1280,\"height\":100,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'tabRoundTopCorners'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"180L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EA1D2C'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"9147818c20f0db73b017\",\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 100.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"5432e175cee4d634a5bc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":23.75,\"y\":109.375,\"z\":5004,\"width\":175,\"height\":71.25}}],\"singleVisualGroup\":{\"displayName\":\"Grupo 2\",\"groupMode\":0},\"parentGroupName\":\"fd42eef0adccba251cff\"}",
+          "height": 71.25,
+          "width": 175.00,
+          "x": 23.75,
+          "y": 109.38,
+          "z": 5004.00
+        },
+        {
+          "config": "{\"name\":\"9147818c20f0db73b017\",\"layouts\":[{\"id\":0,\"position\":{\"height\":100,\"width\":1280,\"x\":0,\"y\":0,\"z\":3000,\"tabOrder\":5000}}],\"singleVisualGroup\":{\"displayName\":\"Grupo 1\",\"groupMode\":0}}",
+          "height": 100.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"969648058ff9b28955d4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":96.25,\"z\":1000,\"width\":1280,\"height\":85,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Relação pedido cancelado com biometria\",\"textStyle\":{\"fontSize\":\"37.3333px\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 85.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 96.25,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"9ad86b8f22454fc93063\",\"layouts\":[{\"id\":0,\"position\":{\"x\":946.25,\"y\":258.75,\"z\":2000,\"width\":311.25,\"height\":316.25,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Análise: \",\"textStyle\":{\"fontWeight\":\"bold\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"A diferença é de \"},{\"value\":\"0,30\",\"textStyle\":{\"fontWeight\":\"bold\"}},{\"value\":\" cancelamentos por sessão (2,70 vs. 2,40), um aumento relativo de ~12,5%;\"}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Apesar de haver um leve incremento\",\"textStyle\":{\"fontWeight\":\"bold\"}},{\"value\":\", essa variação é pequena em termos absolutos e pode ser influenciada por outliers (alguns entregadores com muitos cancelamentos);\"}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Conclusão:\",\"textStyle\":{\"fontWeight\":\"bold\"}},{\"value\":\" não há evidência forte de correlação entre volume de cancelamentos e falhas na validação biométrica.\"}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Próximo passo:\",\"textStyle\":{\"fontWeight\":\"bold\"}},{\"value\":\" rodar um teste estatístico (ex.: correlação de pearson) para checar se essa diferença é significativa e analisar a distribuição via boxplot para entender possíveis outliers;\"}],\"listType\":\"bullet\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"preset\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 316.25,
+          "width": 311.25,
+          "x": 946.25,
+          "y": 258.75,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"a5f32c746546f05166b1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":4000,\"width\":905,\"height\":341.25,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"#medidas.tx_cancelamento_pedido\"}],\"Category\":[{\"queryRef\":\"dim_biometria.status\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"#\",\"Entity\":\"#medidas\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"dim_biometria\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"tx_cancelamento_pedido\"},\"Name\":\"#medidas.tx_cancelamento_pedido\",\"NativeReferenceName\":\"Taxa de cancelamento\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"status\"},\"Name\":\"dim_biometria.status\",\"NativeReferenceName\":\"status\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"status\"}}}]},\"columnProperties\":{\"fato_biometria_tentativas.status\":{\"displayName\":\"Status\"},\"#medidas.tx_cancelamento_pedido\":{\"displayName\":\"Taxa de cancelamento\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"legend\":[{\"properties\":{\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'TopCenter'\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"enableDetailDataLabel\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EA1D2C'\"}}}}}}}],\"zoom\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"referenceLine\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"displayName\":{\"expr\":{\"Literal\":{\"Value\":\"'Média'\"}}},\"value\":{\"expr\":{\"Aggregation\":{\"Expression\":{\"SelectRef\":{\"ExpressionName\":\"#medidas.tx_cancelamento_pedido\"}},\"Function\":1}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#28A745'\"}}}}},\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"style\":{\"expr\":{\"Literal\":{\"Value\":\"'dotted'\"}}},\"dataLabelShow\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"dataLabelColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#28A745'\"}}}}}},\"selector\":{\"metadata\":\"#medidas.tx_cancelamento_pedido\",\"id\":\"1\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Serviços com mais falhas'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"fd42eef0adccba251cff\"}",
+          "filters": "[{\"name\":\"ddabb3abdeb39dc2b5b2\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dim_biometria\"}},\"Property\":\"status\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_biometria\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"status\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'combina'\"}}],[{\"Literal\":{\"Value\":\"'nao combina'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":0,\"objects\":{\"general\":[{\"properties\":{}}]},\"isHiddenInViewMode\":false,\"isLockedInViewMode\":true}]",
+          "height": 341.25,
+          "width": 905.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"ab2504752667e955b830\",\"layouts\":[{\"id\":0,\"position\":{\"x\":15,\"y\":26.25,\"z\":3000,\"width\":160,\"height\":45,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Média da taxa de cancelamento\"}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"preset\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}},\"angle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"shadowDistance\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"shadowBlur\":{\"expr\":{\"Literal\":{\"Value\":\"15L\"}}},\"shadowSpread\":{\"expr\":{\"Literal\":{\"Value\":\"3L\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70L\"}}}}}]}},\"parentGroupName\":\"5432e175cee4d634a5bc\"}",
+          "filters": "[]",
+          "height": 45.00,
+          "width": 160.00,
+          "x": 15.00,
+          "y": 26.25,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"b53d638cb92847836bd1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":15,\"y\":0,\"z\":2000,\"width\":160,\"height\":32.5,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Taxa de cancelamento\"}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"preset\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}},\"angle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"shadowDistance\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"shadowBlur\":{\"expr\":{\"Literal\":{\"Value\":\"15L\"}}},\"shadowSpread\":{\"expr\":{\"Literal\":{\"Value\":\"3L\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70L\"}}}}}]}},\"parentGroupName\":\"5432e175cee4d634a5bc\"}",
+          "filters": "[]",
+          "height": 32.50,
+          "width": 160.00,
+          "x": 15.00,
+          "y": 0.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"d9469c3a5bf56047d3dc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":40,\"z\":1000,\"width\":15,\"height\":16.25,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'line'\"}}},\"linecapType\":{\"expr\":{\"Literal\":{\"Value\":\"'round'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#28A745'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#28A745'\"}}}}},\"weight\":{\"expr\":{\"Literal\":{\"Value\":\"0.5D\"}}}},\"selector\":{\"id\":\"default\"}}]}},\"parentGroupName\":\"5432e175cee4d634a5bc\",\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 16.25,
+          "width": 15.00,
+          "x": 0.00,
+          "y": 40.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"dfc4b5a2a0f45c3fbbb7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":7.5,\"z\":0,\"width\":15,\"height\":16.25,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'oval'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EA1D2C'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"5432e175cee4d634a5bc\",\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 16.25,
+          "width": 15.00,
+          "x": 0.00,
+          "y": 7.50,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"f8452b0a5f2f5524d527\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":680,\"z\":0,\"width\":1280,\"height\":40,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'tabRoundTopCorners'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EA1D2C'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 40.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 680.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"fd42eef0adccba251cff\",\"layouts\":[{\"id\":0,\"position\":{\"height\":341.25,\"width\":905,\"x\":0,\"y\":247.5,\"z\":5005,\"tabOrder\":4004}}],\"singleVisualGroup\":{\"displayName\":\"Grupo 3\",\"groupMode\":0}}",
+          "height": 341.25,
+          "width": 905.00,
+          "x": 0.00,
+          "y": 247.50,
+          "z": 5005.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}},\"url\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}}}]}}",
+      "displayName": "Falhas por dia",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "7c2436a8c6d86d9d2a44",
+      "ordinal": 5,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"2c7040622b4d303ae5de\",\"layouts\":[{\"id\":0,\"position\":{\"height\":100,\"width\":1280,\"x\":0,\"y\":0,\"z\":4000,\"tabOrder\":7001}}],\"singleVisualGroup\":{\"displayName\":\"Grupo 1\",\"groupMode\":0}}",
+          "height": 100.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"41bc11f730146eb2f97c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":103.75,\"z\":2000,\"width\":1280,\"height\":85,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Dias de aumento do comportamento indevido “empréstimo de conta\",\"textStyle\":{\"fontSize\":\"28pt\"}},{\"value\":\"”\",\"textStyle\":{\"fontFamily\":\"inherit\",\"fontSize\":\"28pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 85.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 103.75,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"68fff79b79a2cad52039\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":15,\"z\":7000,\"width\":937.5,\"height\":68.75,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Análise de Efetividade e Falhas na Biometria Facial\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"28pt\",\"color\":\"#ffffff\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"2c7040622b4d303ae5de\"}",
+          "filters": "[]",
+          "height": 68.75,
+          "width": 937.50,
+          "x": 0.00,
+          "y": 15.00,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"6a170529953cdeb6aa78\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1080,\"y\":0,\"z\":2000,\"width\":200,\"height\":100,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"ifood04792776285647227.png\"}}}}}],\"imageScaling\":[{\"properties\":{\"imageScalingType\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}}]}},\"parentGroupName\":\"2c7040622b4d303ae5de\",\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 100.00,
+          "width": 200.00,
+          "x": 1080.00,
+          "y": 0.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"96fb1e1fcbc4d9102e78\",\"layouts\":[{\"id\":0,\"position\":{\"x\":18.75,\"y\":526.25,\"z\":3000,\"width\":1243.75,\"height\":145,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Análise: \",\"textStyle\":{\"fontWeight\":\"bold\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Observa-se um aumento significativo de execuções sem combinações, especialmente nos dias 15 a 17, e 30, indicando picos claros de tentativas possivelmente fraudulentas ou indevidas nesses períodos;\"}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"O dia 17 apresenta o maior pico;\"}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"Os dias subsequentes e anteriores aos picos (dias 14-18) também mostram valores elevados comparados aos demais, sugerindo períodos de atividade concentrada ou campanhas específicas para verificar fraudes ou comportamento suspeito;\"}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"Em contraste, na primeira semana (dias 01 a 07), há menos casos identificados, indicando um padrão mais estável ou baixa incidência desse comportamento indevido nesse período;\"}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"Também foi buscado execuções do mesmo motorista em devices diferentes, e execuções em devices iguais repetidas e não foram localizados pontos de atenção;\"}],\"listType\":\"bullet\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"preset\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 145.00,
+          "width": 1243.75,
+          "x": 18.75,
+          "y": 526.25,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"ba0c05fd448c3264d71e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":167.5,\"z\":1000,\"width\":1280,\"height\":341.25,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"lineStackedColumnComboChart\",\"projections\":{\"Y\":[{\"queryRef\":\"#medidas.nao_combina\"}],\"Y2\":[{\"queryRef\":\"#medidas.media_execucoes_nao_combinam\"}],\"Category\":[{\"queryRef\":\"fato_biometria_tentativas.dia\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"#\",\"Entity\":\"#medidas\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"fato_biometria_tentativas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"qtd_execucoes_nao_combina\"},\"Name\":\"#medidas.nao_combina\",\"NativeReferenceName\":\"Quantidade de execuções sem combinações\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"media_execucoes_nao_combinam\"},\"Name\":\"#medidas.media_execucoes_nao_combinam\",\"NativeReferenceName\":\"Média de falhas\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"dia\"},\"Name\":\"fato_biometria_tentativas.dia\",\"NativeReferenceName\":\"Dia\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"dia\"}}}]},\"columnProperties\":{\"#medidas.nao_combina\":{\"displayName\":\"Quantidade de execuções sem combinações\"},\"#medidas.media_execucoes_nao_combinam\":{\"displayName\":\"Média de falhas\"},\"fato_biometria_tentativas.dia\":{\"displayName\":\"Dia\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"end\":{\"expr\":{\"Literal\":{\"Value\":\"31D\"}}},\"invertAxis\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"legend\":[{\"properties\":{\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'TopCenter'\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#B4161B'\"}}}}}},\"selector\":{\"metadata\":\"#medidas.nao_combina\"}},{\"properties\":{}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Conditional\":{\"Cases\":[{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":1,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"#medidas\"}},\"Property\":\"qtd_execucoes_nao_combina\"}},\"Right\":{\"Literal\":{\"Value\":\"2D\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":4,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"#medidas\"}},\"Property\":\"qtd_execucoes_nao_combina\"}},\"Right\":{\"Literal\":{\"Value\":\"100000000D\"}}}}}},\"Value\":{\"Literal\":{\"Value\":\"'#B4161B'\"}}},{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":1,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"#medidas\"}},\"Property\":\"qtd_execucoes_nao_combina\"}},\"Right\":{\"Literal\":{\"Value\":\"-10000D\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":4,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"#medidas\"}},\"Property\":\"qtd_execucoes_nao_combina\"}},\"Right\":{\"Literal\":{\"Value\":\"2D\"}}}}}},\"Value\":{\"Literal\":{\"Value\":\"'#CCCCCC'\"}}}]}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#28A745'\"}}}}}},\"selector\":{\"metadata\":\"#medidas.media_execucoes_nao_combinam\"}}],\"lineStyles\":[{\"properties\":{\"strokeWidth\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"showMarker\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"lineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"'dotted'\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"enableDetailDataLabel\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}},{\"properties\":{\"showSeries\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"metadata\":\"#medidas.media_execucoes_nao_combinam\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Serviços com mais falhas'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 341.25,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 167.50,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"e345aa230e9f0f4753c1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":1280,\"height\":100,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'tabRoundTopCorners'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"180L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EA1D2C'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"2c7040622b4d303ae5de\",\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 100.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"f29845e48cf6c7379b97\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":680,\"z\":0,\"width\":1280,\"height\":40,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'tabRoundTopCorners'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EA1D2C'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 40.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 680.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}},\"url\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}}}]}}",
+      "displayName": "Serviços com mais falhas",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "a69ebed31277710a28ca",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"2bd0e17688fddae8539a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":1280,\"height\":100,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'tabRoundTopCorners'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"180L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EA1D2C'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"3e113699722b3acb6072\",\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 100.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"3e113699722b3acb6072\",\"layouts\":[{\"id\":0,\"position\":{\"height\":100,\"width\":1280,\"x\":0,\"y\":0,\"z\":7001,\"tabOrder\":5000}}],\"singleVisualGroup\":{\"displayName\":\"Grupo 1\",\"groupMode\":0}}",
+          "height": 100.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 7001.00
+        },
+        {
+          "config": "{\"name\":\"425878bdbc5634667bea\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":680,\"z\":1000,\"width\":1280,\"height\":40,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'tabRoundTopCorners'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EA1D2C'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 40.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 680.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"52efd9dcd1395f17ca0e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":957.5,\"y\":198.75,\"z\":6000,\"width\":311.25,\"height\":435,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Análise: \",\"textStyle\":{\"fontWeight\":\"bold\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"O Provedor A apresentar a menor taxa de falhas e um intervalo de confiança (IC) bastante estreito, indicando alta estabilidade;\"}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"O Provedor B exibe uma taxa de falhas significativamente maior e um IC mais amplo, o que aponta tanto para um desempenho inferior quanto para a necessidade de investigação adicional das causas de erro. \"}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"O Provedor C, com apenas nove tentativas, registra uma taxa de falhas maior, mas seu intervalo de confiança é tão extenso que não permite conclusões estatisticamente seguras, sugerindo que a amostra é insuficiente. \"}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"No momento, o provedor C é o provedor com mais falhas, entretanto, recomenda‑se, ampliar o volume de testes do Provedor C para estreitar seu IC e validar seu comportamento, investigar eventuais gargalos no Provedor B para reduzir falhas e manter o Provedor A como referência de confiabilidade até que novas evidências indiquem mudança.\"}],\"listType\":\"bullet\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"preset\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 435.00,
+          "width": 311.25,
+          "x": 957.50,
+          "y": 198.75,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"5430e187d04f2c564749\",\"layouts\":[{\"id\":0,\"position\":{\"x\":17.5,\"y\":508.75,\"z\":5000,\"width\":920,\"height\":145,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"fato_biometria_tentativas.provedor\"},{\"queryRef\":\"#medidas.qtd_tentativas\"},{\"queryRef\":\"#medidas.qtd_tentativas_falhadas\"},{\"queryRef\":\"#medidas.intervalo_confianca_inf\"},{\"queryRef\":\"#medidas.tx_tentativas_falhadas\"},{\"queryRef\":\"#medidas.intervalo_confianca_sup\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"#\",\"Entity\":\"#medidas\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"fato_biometria_tentativas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"provedor\"},\"Name\":\"fato_biometria_tentativas.provedor\",\"NativeReferenceName\":\"Provedor\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"qtd_execucoes\"},\"Name\":\"#medidas.qtd_tentativas\",\"NativeReferenceName\":\"Quantidade de execuções\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"qtd_execucoes_falhadas\"},\"Name\":\"#medidas.qtd_tentativas_falhadas\",\"NativeReferenceName\":\"Quantidade de execuções falhadas\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"intervalo_confianca_inf\"},\"Name\":\"#medidas.intervalo_confianca_inf\",\"NativeReferenceName\":\"Intervalo de confiança inferior\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"tx_execucoes_falhadas\"},\"Name\":\"#medidas.tx_tentativas_falhadas\",\"NativeReferenceName\":\"Taxa de falhas\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"intervalo_confianca_sup\"},\"Name\":\"#medidas.intervalo_confianca_sup\",\"NativeReferenceName\":\"Intervalo de confiança superior\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"provedor\"}}}]},\"columnProperties\":{\"#medidas.qtd_tentativas\":{\"displayName\":\"Quantidade de execuções\"},\"#medidas.qtd_tentativas_falhadas\":{\"displayName\":\"Quantidade de execuções falhadas\"},\"#medidas.tx_tentativas\":{\"displayName\":\"Taxa de falhas\"},\"fato_biometria_tentativas.provedor\":{\"displayName\":\"Provedor\"},\"#medidas.intervalo_confianca_inf\":{\"displayName\":\"Intervalo de confiança inferior\"},\"#medidas.intervalo_confianca_sup\":{\"displayName\":\"Intervalo de confiança superior\"},\"#medidas.tx_tentativas_falhadas\":{\"displayName\":\"Taxa de falhas\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnFormatting\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}},\"styleTotal\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"styleHeader\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}},\"selector\":{\"metadata\":\"fato_biometria_tentativas.provedor\"}},{\"properties\":{\"styleTotal\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"styleHeader\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}},\"selector\":{\"metadata\":\"#medidas.qtd_tentativas\"}},{\"properties\":{\"styleTotal\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"styleHeader\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}},\"selector\":{\"metadata\":\"#medidas.qtd_tentativas_falhadas\"}},{\"properties\":{\"styleTotal\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"styleHeader\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}},\"selector\":{\"metadata\":\"#medidas.intervalo_confianca_inf\"}},{\"properties\":{\"styleTotal\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"styleHeader\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}},\"selector\":{\"metadata\":\"#medidas.tx_tentativas_falhadas\"}},{\"properties\":{\"styleTotal\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"styleHeader\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}},\"selector\":{\"metadata\":\"#medidas.intervalo_confianca_sup\"}}],\"grid\":[{\"properties\":{\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#cccccc'\"}}}}}}}],\"columnHeaders\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"backColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#B4161B'\"}}}}}}}],\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"144.74999546310244D\"}}}},\"selector\":{\"metadata\":\"#medidas.intervalo_confianca_sup\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"193.49999943064216D\"}}}},\"selector\":{\"metadata\":\"#medidas.intervalo_confianca_inf\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Serviços com mais falhas'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 145.00,
+          "width": 920.00,
+          "x": 17.50,
+          "y": 508.75,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"689866658c778f880910\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":167.5,\"z\":3000,\"width\":937.5,\"height\":341.25,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"lineStackedColumnComboChart\",\"projections\":{\"Category\":[{\"queryRef\":\"fato_biometria_tentativas.provedor\",\"active\":true}],\"Y\":[{\"queryRef\":\"#medidas.qtd_tentativas\"},{\"queryRef\":\"#medidas.qtd_tentativas_falhadas\"}],\"Y2\":[{\"queryRef\":\"#medidas.intervalo_confianca_inf\"},{\"queryRef\":\"#medidas.tx_tentativas\"},{\"queryRef\":\"#medidas.intervalo_confianca_sup\"}],\"Tooltips\":[{\"queryRef\":\"#medidas.qtd_tentativas\"},{\"queryRef\":\"#medidas.qtd_tentativas_falhadas\"},{\"queryRef\":\"#medidas.tx_tentativas\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fato_biometria_tentativas\",\"Type\":0},{\"Name\":\"#\",\"Entity\":\"#medidas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"provedor\"},\"Name\":\"fato_biometria_tentativas.provedor\",\"NativeReferenceName\":\"Provedor\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"qtd_execucoes\"},\"Name\":\"#medidas.qtd_tentativas\",\"NativeReferenceName\":\"Quantidade de execuções\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"qtd_execucoes_falhadas\"},\"Name\":\"#medidas.qtd_tentativas_falhadas\",\"NativeReferenceName\":\"Quantidade de execuções falhadas\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"tx_execucoes_falhadas\"},\"Name\":\"#medidas.tx_tentativas\",\"NativeReferenceName\":\"Taxa de falhas\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"intervalo_confianca_sup\"},\"Name\":\"#medidas.intervalo_confianca_sup\",\"NativeReferenceName\":\"Intervalo de confiança superior\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"intervalo_confianca_inf\"},\"Name\":\"#medidas.intervalo_confianca_inf\",\"NativeReferenceName\":\"Intervalo de confiança inferior\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"#\"}},\"Property\":\"qtd_execucoes\"}}}]},\"columnProperties\":{\"#medidas.qtd_tentativas\":{\"displayName\":\"Quantidade de execuções\"},\"#medidas.qtd_tentativas_falhadas\":{\"displayName\":\"Quantidade de execuções falhadas\"},\"#medidas.tx_tentativas\":{\"displayName\":\"Taxa de falhas\"},\"fato_biometria_tentativas.provedor\":{\"displayName\":\"Provedor\"},\"#medidas.intervalo_confianca_inf\":{\"displayName\":\"Intervalo de confiança inferior\"},\"#medidas.intervalo_confianca_sup\":{\"displayName\":\"Intervalo de confiança superior\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"legend\":[{\"properties\":{\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'TopCenter'\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EA1D2C'\"}}}}}},\"selector\":{\"metadata\":\"#medidas.tx_tentativas\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#B4161B'\"}}}}}},\"selector\":{\"metadata\":\"#medidas.qtd_tentativas_falhadas\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#cccccc'\"}}}}}},\"selector\":{\"metadata\":\"#medidas.qtd_tentativas\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFC107'\"}}}}}},\"selector\":{\"metadata\":\"#medidas.intervalo_confianca_inf\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#333333'\"}}}}}},\"selector\":{\"metadata\":\"#medidas.intervalo_confianca_sup\"}}],\"lineStyles\":[{\"properties\":{\"strokeWidth\":{\"expr\":{\"Literal\":{\"Value\":\"0.5D\"}}},\"showMarker\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"enableDetailDataLabel\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Serviços com mais falhas'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 341.25,
+          "width": 937.50,
+          "x": 0.00,
+          "y": 167.50,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"89c14af7809abe53ff4c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1080,\"y\":0,\"z\":2000,\"width\":200,\"height\":100,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"ifood04792776285647227.png\"}}}}}],\"imageScaling\":[{\"properties\":{\"imageScalingType\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}}]}},\"parentGroupName\":\"3e113699722b3acb6072\",\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 100.00,
+          "width": 200.00,
+          "x": 1080.00,
+          "y": 0.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"bbb02ba3c078ab822f67\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":103.75,\"z\":4000,\"width\":1280,\"height\":85,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Serviços com mais falhas\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"28pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 85.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 103.75,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"e74d1c52f551a3b5efd7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":15,\"z\":7000,\"width\":937.5,\"height\":68.75,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Análise de Efetividade e Falhas na Biometria Facial\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"28pt\",\"color\":\"#ffffff\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"3e113699722b3acb6072\"}",
+          "filters": "[]",
+          "height": 68.75,
+          "width": 937.50,
+          "x": 0.00,
+          "y": 15.00,
+          "z": 7000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
